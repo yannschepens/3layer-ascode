@@ -1,0 +1,12 @@
+= Un forge logicielle
+
+== Trop bien mais qu'est ce que c'est
+
+== Les outils de base
+
+Sonar, Gitlab, Artifactory
+
+== L'hebergement
+
+Sur de la VM
+

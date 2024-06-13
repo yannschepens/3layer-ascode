@@ -26,6 +26,9 @@ Volcamp - 10/11 octobre 2024
 |===
 
 include::pages/start.adoc[leveloffset=+1]
+include::pages/forge.adoc[leveloffset=+1]
+include::pages/forge-hidden-tools.adoc[leveloffset=+1]
+include::pages/pipelines.adoc[leveloffset=+1]
 include::pages/sample.adoc[leveloffset=+1]
 include::pages/end.adoc[leveloffset=+1]
 

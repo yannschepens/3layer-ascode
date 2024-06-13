@@ -1,0 +1,10 @@
+= Organisation des comptes et des projets
+
+== Des projets
+
+== Des gens
+
+* Avec des droits et des roles
+* Associés à des projets
+* Qui viennent et qui parte
+* IDP
