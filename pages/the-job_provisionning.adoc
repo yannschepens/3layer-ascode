@@ -1,0 +1,43 @@
+= Côté outillage
+
+== Maintenant qu'on a l'infra
+
+== Calcul des dépendances entre outils
+
+* L'oeuf ou la poule
+** Gitlab avec le code pour déployer gitlab ...
+
+== Installation des outils
+
+* Installation des docker compose
+** Avec les bons volumes
+* Installation de l'AC certificat
+* Correlation flux et port ouvert
+* Déploiement des configurations environnementales
+* Lancement des scripts d'init
+
+== Gestion des secrets
+
+* Connexion DB, mot de passe root des outils
+** A générer, stocker dans vault et déployer ça dans les outils
+
+== Les scripts d'init
+
+* Soit porté par l'outil
+* Soit configuration manuelle
+
+== Les logs
+
+* Configuration de l'envoie des logs
+
+== Les configurations de base
+
+* Compte d'administration
+* Configuration de base des outils
+** Quality gates
+** Push rules
+** Remote artifactory
+*** A tiens, on avait déjà besoin pour autre chose
+** Règles XRAY de sécurité
+
+

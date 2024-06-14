@@ -36,3 +36,11 @@
 
 == La double forge
 
+* La synchro
+
+== Les configurations des outils
+
+* Règles gitlab
+* Règles sonar
+* Règles artif' dont les remotes
+

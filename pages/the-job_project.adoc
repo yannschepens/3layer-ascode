@@ -1,0 +1,34 @@
+= Les configurations projets
+
+== Petite pause
+
+* L'infra est prête
+* Maintenant, il faut donner les accès ...
+* Bon change
+
+== Côté gitlab
+
+* Création des groups/users/roles
+* Ouverture des projets commun
+
+== Côté artifactory
+
+* Creation des groups/comptes
+** Mais des comptes liés à l'IDP ... Joie
+* Création des dépots
+* Création des permissions
+
+== Côté sonar
+
+* Création des template de permission
+* Et des règles pour les project key
+** Attention à la dépendances avec les pipelines
+
+== Et tout ça
+
+Dès qu'un nouvel utilisateur est ajouté ou supprimé
+
+== C'est pas fini
+
+* Création des comptes de services
+* Déploiements des creds respectifs dans chaque outils
