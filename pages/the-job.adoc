@@ -10,4 +10,10 @@
 * 3 archi logicielle/technique
 * 1 CP touche à tout
 
+== Choix des technos
 
+* Pas encore mais :
+** Terraform : peut tout faire
+** Salt stack
+** Bash
+** Autre

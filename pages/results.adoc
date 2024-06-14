@@ -35,12 +35,3 @@
 ** L'infra : les admin sys
 ** Le provisioning : admin et dev/archi
 ** Les utilisateurs/configuration des outils : les CPs (en passant par les devs et archi)
-
-
-
-
-
-
-
-
-

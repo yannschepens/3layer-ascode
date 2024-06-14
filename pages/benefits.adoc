@@ -1,0 +1,33 @@
+= Est-ce que ça marche ?
+
+== Oui plutôt bien
+
+* On applique, execute le code que sur les élements nécessaire
+* L'exécution des scripts sont plutôt rapides
+* Chaque évolution se fait dans un cadre cohérent
+** On ne se retrouve pas avec du code de gestion de VLAN quand on fait une montée de version de Gitlab.
+** On n'a même pas besoin de calculer les diff (ex. tfstate)
+* Choix de la technos libres pour chaque couche
+
+== Les inconvénients
+
+== Les impacts des modifications
+
+* L'impact se fait de bas en haut
+** infra => provisionning => configuration
+* Mais du coup, du plus rare au moins rare
+** Et merci docker pour atténuer les montées de version des OS
+* Donc parfois, quand on met à jour l'infra, il faut modifier plus haut etc.
+
+== Le maintient de la cohérence du code
+
+* Côté infra et conf, pas de trop de souci
+* Côté provisionning, c'est un peu plus sport
+** Le découpage en sous-bloc et le rythme différent des montées de versions des outils fait qu'on maintient mieux certains dépôts que d'autres
+
+== Perte de compétence
+
+* Les affinités professionelles font qu'on va surtout travailler sur une couche ou deux
+* On perd du savoir sur le reste
+
+== Mais on gagne quand même

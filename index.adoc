@@ -36,7 +36,9 @@ include::pages/the-job_project.adoc[leveloffset=+1]
 include::pages/ascode.adoc[leveloffset=+1]
 include::pages/lifecycle.adoc[leveloffset=+1]
 include::pages/results.adoc[leveloffset=+1]
-include::pages/sample.adoc[leveloffset=+1]
+include::pages/benefits.adoc[leveloffset=+1]
+include::pages/tech-aspect.adoc[leveloffset=+1]
+include::pages/conclusion.adoc[leveloffset=+1]
 include::pages/end.adoc[leveloffset=+1]
 
 

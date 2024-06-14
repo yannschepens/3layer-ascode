@@ -1,0 +1,13 @@
+= Allez quelques mots
+
+== Terraform
+* Pour l'infra
+
+== Salt stack
+* imposé
+* pour le provisionning
+
+== Terraform
+* Pour la configuration des outils
+
+

@@ -1,0 +1,14 @@
+= Conclusion
+
+* Pensez à la fréquence de mise à jour quand vous imaginez votre archi "everything as code"
+* Ca simplifie la maintenance
+* Même si ça sort un peu des habitudes
+* Vision maintenance
+
+== Les futurs truc à rendre indépendants
+
+* La gestion des secrets à extraire
+** Pour faire du renew auto
+** Changement de fréquence et de raison de changer
+** Donc on sort ça dans un autre système
+** Et peut-être une autre techno
