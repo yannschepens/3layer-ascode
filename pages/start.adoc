@@ -1,1 +1,19 @@
-= Start
+= Let's go
+:imagesdir: assets/default/images
+
+== !
+
+image::yann.png[]
+
+[NOTE.speaker]
+====
+* Tech lead Onepoint depuis 4 ans
+* 14 ans de carrière dans le web d'abord puis dans le devops
+* Industrialisé un paquet de projet
+** Plein de techno diff
+* Déployé pas mal d'appli à la main et as code
+* Utilisez beaucoup de forge différente
+** Mais jamais vraiment déployé et maintenu de Forge
+* Et ça allez changé
+====
+
