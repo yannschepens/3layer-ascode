@@ -1,0 +1,19 @@
+= Et du coup ?
+
+* Maintenant qu'on a les schémas et le source de données
+* On s'y colle ?
+
+== Apparté sur notre équipe
+
+* 7 personnes
+* 3 adm sys
+* 3 archi logicielle/technique
+* 1 CP touche à tout
+
+== Choix des technos
+
+* Pas encore mais :
+** Terraform : peut tout faire
+** Salt stack
+** Bash
+** Autre

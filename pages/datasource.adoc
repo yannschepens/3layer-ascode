@@ -1,0 +1,24 @@
+= Organisation des comptes et des projets
+
+== Un forge pour les gouverner tous
+
+[NOTE.speaker]
+----
+Rappel de l'objectif
+* 81 groupes/sous groupes
+* 174 utilisateurs humain
+* 246 projects
+----
+
+== Des projets
+
+* Demande des chefs de projets
+* Qui viennent et qui partent
+* Qui sont neufs et des trucs importés
+
+== Des gens
+
+* Avec des droits et des roles
+* Associés à des projets
+* Qui viennent et qui partent
+* IDP

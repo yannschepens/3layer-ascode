@@ -1,0 +1,37 @@
+= Découpage final
+
+== Trois couches pour la fréquence
+
+* L'infra
+* Le provisionning
+* La configuration par projet
+
+== L'infra
+
+* Tout dans le même dépôt
+** On a besoin d'avoir une vision globale de l'infra quand on fait une modification
+
+== Le provisionning
+
+* Un dépôt par outil
+** Le rythme des mises à jour est différente
+
+* C'est plus complexe, mais l'impact est moindre
+** Un seul dépôt qui contient du code partagé
+
+== La configuration
+
+* Un programme qui gère le tout
+** Permet de mettre à jour tous les outils en même temps
+** Ajout/suppresion d'user/project
+** Renew de token => on reparle un peu après
+
+== Comment on maintient la cohérence de tout ça ?
+
+* Le maintient se fait par couche
+* Il y a une indépendance de chaque layer
+* Conséquence anti devops
+** Seul les personnes compétentes touches à leur couche
+** L'infra : les admin sys
+** Le provisioning : admin et dev/archi
+** Les utilisateurs/configuration des outils : les CPs (en passant par les devs et archi)

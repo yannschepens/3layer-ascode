@@ -1,0 +1,46 @@
+= La partie invisible
+
+== Les environnements
+
+* dev/prod/bastions/backup
+
+== L'aspect systeme
+
+* Sécurisation docker
+* Le chiffrage des disques
+* Le montage des disques
+
+== L'aspect réseau
+
+* Les pare-feu
+* La configuration en bulle
+* Le passage inter zone
+* Les configurations réseaux
+** LAN
+** DNS
+** Certificats
+* La gestion de l'adressage IP
+** Le double adressage admin / user
+
+== Les outils invisibles
+
+* Vault
+* La stack de monitoring
+* L'envoie de mail
+* Les bastions de connexion
+* Le backup
+
+== La zone d'administration
+
+* Gitlab avec ces runners
+
+== La double forge
+
+* La synchro
+
+== Les configurations des outils
+
+* Règles gitlab
+* Règles sonar
+* Règles artif' dont les remotes
+

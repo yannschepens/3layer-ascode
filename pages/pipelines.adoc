@@ -1,0 +1,7 @@
+= Les pipelines sur mesure
+
+== Gitlab + runner
+
+* Accès réseau à artifactory, sonar : OK
+* Accès à vault qui est ailleurs
+

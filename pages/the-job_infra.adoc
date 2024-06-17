@@ -1,0 +1,37 @@
+= Côté infra
+
+== La préparation de l'hébergement
+
+* Création des comptes/tenants
+* Choix de l'image de base et déploiement des VMs
+
+== Définition des bulles réseaux
+
+* VLAN avec les ports
+* Définition des chemins de communication
+
+== Configuration Réseau pur
+
+* DNS
+* Configuration Firewall pour l'autorisation des flux entre VMs
+* Configuration des Firewall pour les autorisations de passage entre tenants
+
+== Par VM
+
+* Assignation de l'adressage IP
+* Hardening des confs
+* Montage des disques chiffrés
+* Configuration de la sauvegarde
+* Configuration de sécurité par défaut de docker
+* Reconf des DNS
+* Installation des outils de monitoring
+
+== On a pas d'accès à INternet
+
+* APT il aime pas trop ça
+** Donc il nous faut un moyen de sortir
+** Install d'artif' relai
+
+== Configuration des bastions
+
+== Configuration des outils de monitoring

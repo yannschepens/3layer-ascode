@@ -1,0 +1,72 @@
+= Le As Code
+
+== Les approches
+
+
+== Orienté outil
+
+* Chaque outil porte son infra et son delivery
+* En respectant les règles établies
+* Autonomie de l'équipe
+
+Pro :
+* Cohérence intra outillage
+* Gestion des besoins d'infra et de conf
+* A chaque utilisateur 4 dépôts minimum à toucher
+** Gitlab/Sonar/Vault/Artifactory
+
+Cons :
+* Y'a toujours des sides effects
+* Dans notre cas, ça aurait été un enfer
+
+== Orienté Landing zone
+
+* L'infra + le monitoring + la gestion des accès niveau environnement
+* Souvent pour une équipe dédiée
+* Pour de l'accueil d'autres projets d'autres équipes
+
+Pro :
+* Cohérence de l'infra
+* Sécurité ++
+
+Cons :
+* Ben, nous on déploie toujours les mêmes outils
+* Tous nos outils fonctionnent ensemble
+
+== Chez nous, tout touche à tout
+
+* Ex.: Si l'auth gitlab change
+** Regeneration des services accounts
+** Modification artif
+** Modification de sonar
+
+* Ex.: Déploiment d'un nouvel outil
+** Ouverture de flux => Infra
+** Branchement avec les outils qui s'en serve => Provisionning
+** Configuration des accès pour les projets => Projet
+
+== Tout dans le même dépôt ?
+
+* A chaque nouvel utilisateur, on rejoue tout ?
+** Même avec des astuces, complexité accrue
+** Branching Git horrible
+
+* Monté de version d'un outil ?
+** Idem, on risque en plus de peter un truc
+
+* Fréquence d'exécution du script
+** Trop fréquent pour un truc qui attaque toute l'infra
+
+== Par outils ?
+
+* Indépendance/Autonomie
+* Gestion de la configuration par projet jusqu'à l'infra
+** Pratique en cas de changement de version, ça permet de rester cohérent
+** Facilitation de la gestion infra si besoin de nouveau flux, nouvelles ressources
+* Mais
+** Vu le nombre d'outils
+** Code : Gardez une cohérence en terme de style, de règles d'écriture
+** Cohérence générale : Y'a toujours des effets de bord, des non compatibilités, des dépendances à gérer
+** Demande des compétences sur toutes les couches
+
+== Autrement ?

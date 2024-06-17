@@ -1,0 +1,53 @@
+= L'instant reflexion
+
+== Les questions qu'on s'est posé
+
+* Qu'est-ce qui nous amène à toucher le code ?
+* A quelle fréquence ?
+* Qui est compétent pour toucher à quoi ?
+
+== Pourquoi on touche le code ?
+
+* Certaines modifications sont globales à l'infra
+** Update debian/Configuration de base des VMs
+* Mise à jour de logiciel
+** Unique à un logiciel
+* Modification des flux de communication
+** Globale mais rare
+* Ajout d'un utilisateur/projet
+** Impact limité mais sur plusieurs outils
+
+[NOTE.speaker]
+====
+Au-delà de l'impact, c'est surtout la fréquence qui change
+====
+
+== La fréquence
+
+* Modif d'infra : plutôt rare et maitrisé
+** Souvent de notre volonté, donc maitrisé
+* Modif logiciel (provisionning) : Instable mais maitrisé à court terme
+** Aux nouvelles versions des outils
+** A l'ajout et modification des outils
+* Gestion des utilisateurs et projet : Instable et non maitrisé
+** Doit être fait le plus rapidement possible
+** Sans impact sur le reste de la plateforme
+
+[NOTE.speaker]
+====
+Ici, on se rend compte, qu'on 3 types de temporalités
+====
+
+== Les temporalités
+
+* Très Fréquent
+* De temps en temps
+* Rare
+
+== Donc découpe en 3 couche/temps
+
+[NOTE.speaker]
+====
+C'est le titre de la conf
+====
+

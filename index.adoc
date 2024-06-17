@@ -26,7 +26,19 @@ Volcamp - 10/11 octobre 2024
 |===
 
 include::pages/start.adoc[leveloffset=+1]
-include::pages/sample.adoc[leveloffset=+1]
+include::pages/forge.adoc[leveloffset=+1]
+include::pages/forge-hidden-tools.adoc[leveloffset=+1]
+include::pages/pipelines.adoc[leveloffset=+1]
+include::pages/the-job.adoc[leveloffset=+1]
+include::pages/the-job_infra.adoc[leveloffset=+1]
+include::pages/the-job_provisionning.adoc[leveloffset=+1]
+include::pages/the-job_project.adoc[leveloffset=+1]
+include::pages/ascode.adoc[leveloffset=+1]
+include::pages/lifecycle.adoc[leveloffset=+1]
+include::pages/results.adoc[leveloffset=+1]
+include::pages/benefits.adoc[leveloffset=+1]
+include::pages/tech-aspect.adoc[leveloffset=+1]
+include::pages/conclusion.adoc[leveloffset=+1]
 include::pages/end.adoc[leveloffset=+1]
 
 
