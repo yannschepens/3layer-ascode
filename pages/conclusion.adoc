@@ -5,7 +5,7 @@
 * Même si ça sort un peu des habitudes
 * Vision maintenance
 
-== Les futurs truc à rendre indépendants
+== Les futurs trucs à rendre indépendants
 
 * La gestion des secrets à extraire
 ** Pour faire du renew auto
