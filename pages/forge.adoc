@@ -1,12 +1,109 @@
-= Un forge logicielle
+= Une forge logicielle
+:imagesdir: assets/default/images/
 
-== Trop bien mais qu'est ce que c'est
+== !
 
-== Les outils de base
+image::forge.png[forge,75%]
 
-Sonar, Gitlab, Artifactory
+[NOTE.speaker]
+====
+Trop bien mais qu'est ce que c'est :
 
-== L'hebergement
+* Un ensemble d'outil pour simplifier la vie des développeurs
+* Assurer la qualité, la non-reg, la sécu,
+* Construire, builder, livrer, déployer
+* Embéter (pour être poli) les équipes de réal
 
-Sur de la VM
+C'est jolie comme image, mais pour de l'IT, en vrai c'est :
+====
+
+== !
+
+image::mendeleiev.png[mendeleiev]
+
+[NOTE.speaker]
+====
+* C'est pas mal
+* On a du choix
+* Plein de jouet
+* Pour info, c'est le tableau periodique devops
+
+Mais en vrai de vrai ?
+====
+
+== !
+
+image:forge-simple.png[]
+
+[NOTE.speaker]
+====
+
+Les outils de base
+
+* C'est moins classe quand même
+* Bon j'exagère, mais ce sont souvent les outils de base
+* Trop, cool, trois outils, ça va pas être compliqué
+* On prend As a Service, et c'est plié
+
+* Salut ! Eh ben non !
+====
+
+[transition=fade]
+== !
+
+image::forge-simple-on-prem.png[]
+
+[NOTE.speaker]
+====
+
+On premise
+
+* Question de sécurité
+* On a une infra à monter
+====
+
+[transition=fade]
+== !
+
+image::forge-simple-with-k8s.png[]
+
+[NOTE.speaker]
+====
+
+Pas grave, on mettre un k8s
+En plus, notre hebergeur le propose
+
+====
+
+[transition=fade]
+== !
+
+image::forge-simple-with-k8s-nope.png[]
+
+[NOTE.speaker]
+====
+
+Nope, nope
+
+Du coup ?
+
+====
+
+[transition=fade]
+== !
+
+image::forge-simple-vm-docker.png[]
+
+[NOTE.speaker]
+====
+
+De la VM avec du docker
+
+Trop biennnnnnn
+
+====
+
+* Sur VM
+* Pas de As a service
+* Pas d'accès direct à internet
 
