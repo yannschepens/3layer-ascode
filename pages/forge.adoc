@@ -101,9 +101,44 @@ De la VM avec du docker
 
 Trop biennnnnnn
 
+C'est pas grave, ça le fait
+
+Ha, on a oublié de vous dire
+
 ====
 
-* Sur VM
-* Pas de As a service
-* Pas d'accès direct à internet
+== !
 
+image::forge-simple-no-internet.png[]
+
+[NOTE.speaker]
+====
+* Pas de sortie direct, et pas de proxy XD
+* Pas d'entrée direct
+** Sécurité
+====
+
+== !
+
+image::forge-simple-relai.png[]
+
+[NOTE.speaker]
+====
+* Whitelist IP avec firewall
+* Relai par zone dédiée et passage par des proxy de dépots artifactory
+* Autant l'entrée vers la plateforme, ok, mais si avec des prestas c'est compliqué (on a whitelisté les VPN des prestas)
+* Imaginez, pour les apt, docker pull, etc. pas d'accès aux direct aux dépôts ... FUN !
+* Pour récapituler
+====
+
+== !
+
+image::nope.png[nope,75%]
+
+[NOTE.speaker]
+====
+* La plateforme, c'est NOPE, on a pas beaucoup de liberté
+* Je ne vous parle pas des certificats proprietaires
+** Et oui, vue qu'on proxifie les dépôts distants officielle debian etc... bahhhh, je vous passe les détails
+** Et tout est authentifié
+====
