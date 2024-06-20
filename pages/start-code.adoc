@@ -1,0 +1,25 @@
+= On respire et on réfléchit as code
+:imagesdir: assets/default/images/
+
+[NOTE.speaker]
+====
+* Bon, pas que des bonnes nouvelles
+* On commence à se poser des questions sur l'outillage
+** Histoire de se faire un peu plaisir quand même
+** On reste des devs et des ops
+====
+
+== !
+
+image::tooling.png[]
+
+[NOTE.speaker]
+====
+* Première intuition
+** terraform + docker compose + bash
+** Dans un dépôt, ou un par outil, c'est un peu gros mais au moins c'est cohérent
+* Pour l'infra, c'est parfait
+* On a 5/6 outils à déployer sur des VM, avec docker ça va aller vite, pas trop de besoin de provisionning, donc pas forcement de ansible et autre
+* Pour la conf, soit des ressources terraform, soit du fichier de conf soit du bash
+====
+
