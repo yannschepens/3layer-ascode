@@ -43,7 +43,27 @@ Les outils de base
 * C'est moins classe quand même
 * Bon j'exagère, mais ce sont souvent les outils de base
 * Trop, cool, trois outils, ça va pas être compliqué
+====
+
+== Notre forge alors ?
+
+[NOTE.speaker]
+====
+
+Et notre forge alors, on fait quoi ?
+
+Comme tout bon faineant
+====
+
+== !
+
+image:too-simple.png[]
+
+[NOTE.speaker]
+====
 * On prend As a Service, et c'est plié
+
+* Alors, on peut ?
 
 * Salut ! Eh ben non !
 ====
@@ -57,6 +77,8 @@ image::forge-simple-on-prem.png[]
 ====
 
 On premise
+
+* Bon allez, on commence à rentrer dedans
 
 * Question de sécurité
 * On a une infra à monter
@@ -141,4 +163,7 @@ image::nope.png[nope,75%]
 * Je ne vous parle pas des certificats proprietaires
 ** Et oui, vue qu'on proxifie les dépôts distants officielle debian etc... bahhhh, je vous passe les détails
 ** Et tout est authentifié
+
+* Allez, on prend en compte toutes ces contraintes
+et on continue
 ====
