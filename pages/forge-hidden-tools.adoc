@@ -1,8 +1,42 @@
 = La partie invisible
+:imagesdir: assets/default/images/
+
+[NOTE.speaker]
+====
+Très bien, on a vu nos outils de base
+En tout cas, ce qui est utile directement aux users
+
+Creusons un peu le sujet
+
+Disclaimer, certains choix :
+* Pas ouf
+* Demandé par le client
+* Sympa au début, puis problèmatique après
+
+Commençons par les environnements
+
+Déjà, qu'avons-nous besoin comme env'
+
+====
 
 == Les environnements
 
-* dev/prod/bastions/backup
+image:forge-all.png[forge,75%]
+
+[NOTE.speaker]
+====
+
+* Ah ...
+* Un env de test pour nous, prod pour les devs, admin pour gérer tout ça, backups externes, un isolé pour sortir
+* Ca va être drôle à implémenter tout ça
+* Ca change de nos 3 pauvres services à déployer
+* On voit :
+** De la gestion d'env, du réseau, tout un tas de VM à déployer
+
+* On sent qu'un dépôt ou deux d'infra as code, ça risque d'être
+* Continuons à descendre
+
+====
 
 == L'aspect systeme
 
