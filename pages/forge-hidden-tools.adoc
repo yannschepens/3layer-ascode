@@ -33,16 +33,38 @@ image:forge-all.png[forge,75%]
 * On voit :
 ** De la gestion d'env, du réseau, tout un tas de VM à déployer
 
-* On sent qu'un dépôt ou deux d'infra as code, ça risque d'être
-* Continuons à descendre
+* On sent qu'un dépôt ou deux d'infra as code, ça risque d'être chaud
+* A ce moment, là, on est un peu comme ça
 
 ====
 
-== L'aspect systeme
+== !
 
-* Sécurisation docker
-* Le chiffrage des disques
-* Le montage des disques
+image:paroucommencer.png[]
+
+[NOTE.speaker]
+====
+* On garde en tête qu'on doit gérer toute l'infra et la sécu qui va avec as code
+* On ne sait pas trop par où commencer
+* Donc, on va commencer par le plus bas
+** Les contraintes générales
+* Et on remonte
+====
+
+== Côté VM
+
+image:vm.png[vm, 75%]
+
+[NOTE.speaker]
+====
+* Conf de VM générique => Packer ?, infra (terraform)
+** Dont sécurisation docker (je vous renvoie vers une excellente conférence à ce sujet)
+** Clé d'accès SSH (au moins dans un premier temps)
+** Déploiement des certificats => Dans packer ou au provisionning ?
+* Création des disques => infra ?
+* Chiffrage disque => Provisioning ?
+* Montage des disques ? => infra, provisioning
+====
 
 == L'aspect réseau
 
