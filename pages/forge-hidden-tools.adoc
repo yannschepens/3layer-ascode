@@ -57,14 +57,150 @@ image:vm.png[vm, 75%]
 
 [NOTE.speaker]
 ====
-* Conf de VM générique => Packer ?, infra (terraform)
+* Conf de VM générique
 ** Dont sécurisation docker (je vous renvoie vers une excellente conférence à ce sujet)
 ** Clé d'accès SSH (au moins dans un premier temps)
 ** Déploiement des certificats => Dans packer ou au provisionning ?
 * Création des disques => infra ?
 * Chiffrage disque => Provisioning ?
 * Montage des disques ? => infra, provisioning
+* Soit dans un image de base à maintenir, soit à rejoué sur les dizaines de VM à chaque déploiement/MAJ  => Packer ?, infra (terraform)
+* Avant de passer au couche réseau, je crois qu'on a oublié quelques éléments
 ====
+
+== Les outils invisibles
+
+image:forge-all-hidden-tools-1.png[1, 75%]
+
+[NOTE.speaker]
+====
+* Ca c'est globalement la vision utilisateur
+* Mais en vrai, si on veut avancer dans cette conférence sans avoir à faire à un Jackson Pollock
+* On va virer les flèches
+====
+
+== !
+
+image:forge-all-hidden-tools-2.png[2, 75%]
+
+[NOTE.speaker]
+====
+* Virer les détails
+====
+
+== !
+
+image:forge-all-hidden-tools-3.png[3, 75%]
+
+[NOTE.speaker]
+====
+* Désolé pour l'utilsateur, mais ici, il ne me sert à rien
+* On va faire un peu de place
+====
+
+== !
+
+image:forge-all-hidden-tools-4.png[4, 75%]
+
+[NOTE.speaker]
+====
+* Et réduire les blocs
+====
+
+== !
+
+image:forge-all-hidden-tools-5.png[5, 75%]
+
+[NOTE.speaker]
+====
+* Voila, ce sera plus simple comme ça
+* On va pouvoir ajouter quelques outils dont on va avoir besoin
+* Bon, pour la côté as code du diagramme on reviendra par contre
+* Déjà, Gitlab ne vient pas tout seul
+* On ajoute les runner
+====
+
+== !
+
+image:forge-all-hidden-tools-6.png[5, 75%]
+
+[NOTE.speaker]
+====
+* Ensuite, on a XRay avec Artif'
+====
+
+== !
+
+image:forge-all-hidden-tools-7.png[5, 75%]
+
+[NOTE.speaker]
+====
+* Et les DB pour chaque outil
+====
+
+== !
+
+image:forge-all-hidden-tools-8.png[5, 75%]
+
+[NOTE.speaker]
+====
+* On a besoin de gérer des secrets
+====
+
+== !
+
+image:forge-all-hidden-tools-9.png[5, 75%]
+
+[NOTE.speaker]
+====
+* Donc on met un vault
+* On a besoin d'envoyer des mails
+====
+
+== !
+
+image:forge-all-hidden-tools-10.png[5, 75%]
+
+[NOTE.speaker]
+====
+* Et oui, pas d'accès direct à internet, donc on a notre propre sortie de mail
+* On a besoin de pouvoir se connecter à tout ça
+====
+
+== !
+
+image:forge-all-hidden-tools-11.png[5, 75%]
+
+[NOTE.speaker]
+====
+* Donc un bastion de connexion
+* Il faut pouvoir monitorer tout ça
+====
+
+== !
+
+image:forge-all-hidden-tools-12.png[5, 75%]
+
+[NOTE.speaker]
+====
+* Un Zabbix
+* Et un aggrégateur de logs + monitoring supplémentaire
+====
+
+== !
+
+image:forge-all-hidden-tools-13.png[5, 75%]
+
+[NOTE.speaker]
+====
+* Une stack ELK
+** Qui nous sert de doublement de l'alerting avec Zabbix
+====
+
+
+* La stack de monitoring
+* Les bastions de connexion
+* Le backup
 
 == L'aspect réseau
 
@@ -77,14 +213,6 @@ image:vm.png[vm, 75%]
 ** Certificats
 * La gestion de l'adressage IP
 ** Le double adressage admin / user
-
-== Les outils invisibles
-
-* Vault
-* La stack de monitoring
-* L'envoie de mail
-* Les bastions de connexion
-* Le backup
 
 == La zone d'administration
 
