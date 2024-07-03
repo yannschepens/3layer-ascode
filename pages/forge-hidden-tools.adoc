@@ -70,6 +70,16 @@ image:vm.png[vm, 75%]
 
 == Les outils invisibles
 
+[NOTE.speaker]
+====
+* Vu qu'on ne peut pas utiliser d'outils Saas, ni d'accès au net
+* Va falloir qu'on s'équipe un peu
+* Ca va nous permettre de voir quelle approche avoir en terme d'organisation du code
+====
+
+[transition="slide-in none-out"]
+== !
+
 image:forge-all-hidden-tools-1.png[1, 75%]
 
 [NOTE.speaker]
@@ -79,6 +89,7 @@ image:forge-all-hidden-tools-1.png[1, 75%]
 * On va virer les flèches
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-2.png[2, 75%]
@@ -88,6 +99,7 @@ image:forge-all-hidden-tools-2.png[2, 75%]
 * Virer les détails
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-3.png[3, 75%]
@@ -98,6 +110,7 @@ image:forge-all-hidden-tools-3.png[3, 75%]
 * On va faire un peu de place
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-4.png[4, 75%]
@@ -107,6 +120,7 @@ image:forge-all-hidden-tools-4.png[4, 75%]
 * Et réduire les blocs
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-5.png[5, 75%]
@@ -120,6 +134,7 @@ image:forge-all-hidden-tools-5.png[5, 75%]
 * On ajoute les runner
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-6.png[5, 75%]
@@ -129,6 +144,7 @@ image:forge-all-hidden-tools-6.png[5, 75%]
 * Ensuite, on a XRay avec Artif'
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-7.png[5, 75%]
@@ -138,6 +154,7 @@ image:forge-all-hidden-tools-7.png[5, 75%]
 * Et les DB pour chaque outil
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-8.png[5, 75%]
@@ -147,6 +164,7 @@ image:forge-all-hidden-tools-8.png[5, 75%]
 * On a besoin de gérer des secrets
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-9.png[5, 75%]
@@ -157,6 +175,7 @@ image:forge-all-hidden-tools-9.png[5, 75%]
 * On a besoin d'envoyer des mails
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-10.png[5, 75%]
@@ -167,6 +186,7 @@ image:forge-all-hidden-tools-10.png[5, 75%]
 * On a besoin de pouvoir se connecter à tout ça
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-11.png[5, 75%]
@@ -177,6 +197,7 @@ image:forge-all-hidden-tools-11.png[5, 75%]
 * Il faut pouvoir monitorer tout ça
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-12.png[5, 75%]
@@ -187,6 +208,7 @@ image:forge-all-hidden-tools-12.png[5, 75%]
 * Et un aggrégateur de logs + monitoring supplémentaire
 ====
 
+[transition=none]
 == !
 
 image:forge-all-hidden-tools-13.png[5, 75%]
@@ -196,11 +218,6 @@ image:forge-all-hidden-tools-13.png[5, 75%]
 * Une stack ELK
 ** Qui nous sert de doublement de l'alerting avec Zabbix
 ====
-
-
-* La stack de monitoring
-* Les bastions de connexion
-* Le backup
 
 == L'aspect réseau
 
