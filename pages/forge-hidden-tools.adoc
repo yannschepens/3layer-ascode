@@ -44,7 +44,7 @@ image:paroucommencer.png[]
 
 [NOTE.speaker]
 ====
-* On garde en tête qu'on doit gérer toute l'infra et la sécu qui va avec as code
+* On garde en tête qu'on doit gérer toute l'infra et la sécu qui va avec "as code"
 * On ne sait pas trop par où commencer
 * Donc, on va commencer par le plus bas
 ** Les contraintes générales
@@ -208,7 +208,7 @@ image:forge-all-hidden-tools-12.png[5, 75%]
 * Et un aggrégateur de logs + monitoring supplémentaire
 ====
 
-[transition=none]
+[transition="none-in, slide-out"]
 == !
 
 image:forge-all-hidden-tools-13.png[5, 75%]
@@ -219,21 +219,92 @@ image:forge-all-hidden-tools-13.png[5, 75%]
 ** Qui nous sert de doublement de l'alerting avec Zabbix
 ====
 
+== !
+
+image:fine.png[]
+
+[NOTE.speaker]
+====
+* TOUT VA BIEN !
+* Avec du docker compose et une ISO de base, ça devrait pas être si compliqué à mettre en place.
+* Avant de prendre des décisions sur notre organisation de code pour tout ça, il nous manque quelque chose d'important.
+====
+
 == L'aspect réseau
 
-* Les pare-feu
+image:switch.png[]
+
+[NOTE.speaker]
+====
+* C'est bien d'avoir des outils, mais maintenant, il faut qu'il communique, en prenant en compte les contraintes de sécu et les ouvertures de flux.
+* Commençons par organiser ce beau foutoir
+====
+
+== !
+
+Bulles & adressage ip
+
+[NOTE.speaker]
+====
 * La configuration en bulle
-* Le passage inter zone
-* Les configurations réseaux
-** LAN
-** DNS
-** Certificats
-* La gestion de l'adressage IP
-** Le double adressage admin / user
+* On a décidé de regrouper les outils par bulle pour l'adressage
+* Simplification des règles IP et filtrage
+====
 
-== La zone d'administration
+== !
 
-* Gitlab avec ces runners
+Double adressage
+
+[NOTE.speaker]
+====
+* Pour éviter les ouvertures de port "technique" (ex. ssh) sur le réseau utilisateur, double adressage, donc deux cartes réseaux par VM
+* Et configuration des ports ouverts sur les machines
+====
+
+== !
+
+DNS
+
+[NOTE.speaker]
+====
+* Un petit DNS histoire de nous simplifier la vie
+====
+
+== !
+
+Pare feu
+
+[NOTE.speaker]
+====
+* Un pare feu L3/4 7 pour proteger tout ça
+* Central dans l'infra, tout passe par lui
+* Double configuration réseau technique et réseau utilisateur
+====
+
+== !
+
+Le passage inter zone
+
+[NOTE.speaker]
+====
+* Encore des pare feu pour les sorties entre les environnements
+====
+
+== !
+
+Certificats
+
+[NOTE.speaker]
+====
+Notre enfer, le dépôt des certificats, en plus, il faut les monter dans les containers docker
+====
+
+== Les autres zones
+
+[NOTE.speaker]
+====
+Il faut faire le même boulot pour les autres zones
+====
 
 == La double forge
 

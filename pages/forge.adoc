@@ -68,7 +68,7 @@ image:too-simple.png[]
 * Salut ! Eh ben non !
 ====
 
-[transition=fade]
+[transition="slide-in none-out"]
 == !
 
 image::forge-simple-on-prem.png[]
@@ -84,7 +84,7 @@ On premise
 * On a une infra à monter
 ====
 
-[transition=fade]
+[transition=none]
 == !
 
 image::forge-simple-with-k8s.png[]
@@ -97,7 +97,7 @@ En plus, notre hebergeur le propose
 
 ====
 
-[transition=fade]
+[transition=none]
 == !
 
 image::forge-simple-with-k8s-nope.png[]
@@ -111,7 +111,7 @@ Du coup ?
 
 ====
 
-[transition=fade]
+[transition=none]
 == !
 
 image::forge-simple-vm-docker.png[]
@@ -129,6 +129,7 @@ Ha, on a oublié de vous dire
 
 ====
 
+[transition=none]
 == !
 
 image::forge-simple-no-internet.png[]
