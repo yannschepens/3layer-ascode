@@ -242,7 +242,7 @@ image:switch.png[]
 
 == !
 
-Bulles & adressage ip
+image:forge-all-network-01.png[1, 75%]
 
 [NOTE.speaker]
 ====
@@ -253,7 +253,7 @@ Bulles & adressage ip
 
 == !
 
-Double adressage
+image:forge-all-network-02.png[2, 75%]
 
 [NOTE.speaker]
 ====
@@ -263,7 +263,7 @@ Double adressage
 
 == !
 
-DNS
+image:forge-all-network-03.png[3, 75%]
 
 [NOTE.speaker]
 ====
@@ -272,7 +272,7 @@ DNS
 
 == !
 
-Pare feu
+image:forge-all-network-04.png[4, 75%]
 
 [NOTE.speaker]
 ====
@@ -283,11 +283,21 @@ Pare feu
 
 == !
 
-Le passage inter zone
+image:forge-all-network-05.png[5, 75%]
 
 [NOTE.speaker]
 ====
 * Encore des pare feu pour les sorties entre les environnements
+* En réalité, on a pas autant de parefeu, mais il faudrait
+====
+
+== !
+
+image:forge-all-network-06.png[6, 75%]
+
+[NOTE.speaker]
+====
+* Heureusement qu'on a fait un peu de place sur le schéma
 ====
 
 == !
