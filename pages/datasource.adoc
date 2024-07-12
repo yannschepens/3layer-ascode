@@ -1,19 +1,28 @@
-= Organisation des comptes et des projets
+= Rendre service à nos utilisateurs
 
-== Un forge pour les gouverner tous
+== Une forge pour les gouverner tous
 
-[NOTE.speaker]
-----
-Rappel de l'objectif
 * 81 groupes/sous groupes
 * 174 utilisateurs humain
 * 246 projects
-----
 
-== Des projets
+[NOTE.speaker]
+====
+Lire le slide
+
+On va pas faire ça à la main non plus
+Donc as code
+
+MAIS
+
+D'où viennent ces infos d'ailleurs ? Et de quoi on parle ?
+====
+
+== Les projets
 
 * Demande des chefs de projets
 * Qui viennent et qui partent
+* Impact sur les configurations des outils
 * Qui sont neufs et des trucs importés
 
 == Des gens

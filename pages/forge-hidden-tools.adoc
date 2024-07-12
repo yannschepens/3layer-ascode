@@ -300,29 +300,22 @@ image:forge-all-network-06.png[6, 75%]
 * Heureusement qu'on a fait un peu de place sur le schéma
 ====
 
-== !
-
-Certificats
-
-[NOTE.speaker]
-====
-Notre enfer, le dépôt des certificats, en plus, il faut les monter dans les containers docker
-====
-
-== Les autres zones
+== x4
 
 [NOTE.speaker]
 ====
 Il faut faire le même boulot pour les autres zones
 ====
 
-== La double forge
+== Infra et provisionning as code
 
-* La synchro
-
-== Les configurations des outils
-
-* Règles gitlab
-* Règles sonar
-* Règles artif' dont les remotes
-
+[NOTE.speaker]
+====
+* Déjà, on voit que ça ne va être une mince affaire
+* On va rien faire à la main
+* Terraform ok, mais bash, ça risque d'être compliqué
+* Une approche un dépôt de code par outil =>
+** Pourquoi pas, mais quid des dépendances
+* Une approche globale, très gros
+* MAIS, on a juste oublié un truc un peu important
+====

@@ -1,34 +1,63 @@
 = Les configurations projets
 
-== Petite pause
+== Les configurations des outils
+:imagesdir: assets/default/images/
 
-* L'infra est prête
-* Maintenant, il faut donner les accès ...
-* Bon change
+[NOTE.speaker]
+====
+Maintenant que les outils sont installés et peuvent communiquer
+Pour que les utilisateurs puissent y accéder
+Il faut bien les configurer
+====
 
-== Côté gitlab
+== !
 
-* Création des groups/users/roles
-* Ouverture des projets commun
+image:tools-tasks-gitlab.png[1, 75%]
 
-== Côté artifactory
+[NOTE.speaker]
+====
+* Côté gitlab
+* 2 types de confs
+** Général, soit admin soit pour l'ensemble des projets
+** Configuration spécifique projet
+* => Expliquer le schéma
+* Déjà, on voit qu'on ne va pas pouvoir les faire au même moment
+* Et donc pas forcement avec les mêmes outils
+====
 
-* Creation des groups/comptes
-** Mais des comptes liés à l'IDP ... Joie
-* Création des dépots
-* Création des permissions
+== !
 
-== Côté sonar
+image:tools-tasks-sonar.png[2, 75%]
 
-* Création des template de permission
-* Et des règles pour les project key
-** Attention à la dépendances avec les pipelines
+[NOTE.speaker]
+====
+* Idem pour sonar, 2 types de conf
+* => Expliquer le schéma
+* Dépendances avec d'autres outils/projet :
+** via les pattern de project key
+** les échanges d'access token par projet
+====
 
-== Et tout ça
+== !
 
-Dès qu'un nouvel utilisateur est ajouté ou supprimé
+image:tools-tasks-sonar.png[3, 75%]
 
-== C'est pas fini
+[NOTE.speaker]
+====
+* Idem pour artif', 2 types de conf
+* => Expliquer le schéma
+* Dépendances avec d'autres outils/projet :
+** le nommage des dépôts
+** les échanges d'access token par projet
+** Le choix des technos pour les dépôts
+====
 
-* Création des comptes de services
-* Déploiements des creds respectifs dans chaque outils
+== !
+
+image:tools-tasks-vault.png[4, 75%]
+
+[NOTE.speaker]
+====
+Les secrets, ben il faut limiter aussi les accès
+====
+
