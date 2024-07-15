@@ -208,7 +208,7 @@ image:forge-all-hidden-tools-12.png[5, 75%]
 * Et un aggrégateur de logs + monitoring supplémentaire
 ====
 
-[transition="none-in, slide-out"]
+[transition="none-in slide-out"]
 == !
 
 image:forge-all-hidden-tools-13.png[5, 75%]
@@ -240,6 +240,7 @@ image:switch.png[]
 * Commençons par organiser ce beau foutoir
 ====
 
+[transition="slide-in none-out"]
 == !
 
 image:forge-all-network-01.png[1, 75%]
@@ -251,6 +252,7 @@ image:forge-all-network-01.png[1, 75%]
 * Simplification des règles IP et filtrage
 ====
 
+[transition=none]
 == !
 
 image:forge-all-network-02.png[2, 75%]
@@ -261,6 +263,7 @@ image:forge-all-network-02.png[2, 75%]
 * Et configuration des ports ouverts sur les machines
 ====
 
+[transition=none]
 == !
 
 image:forge-all-network-03.png[3, 75%]
@@ -270,6 +273,7 @@ image:forge-all-network-03.png[3, 75%]
 * Un petit DNS histoire de nous simplifier la vie
 ====
 
+[transition=none]
 == !
 
 image:forge-all-network-04.png[4, 75%]
@@ -281,6 +285,7 @@ image:forge-all-network-04.png[4, 75%]
 * Double configuration réseau technique et réseau utilisateur
 ====
 
+[transition=none]
 == !
 
 image:forge-all-network-05.png[5, 75%]
@@ -291,6 +296,7 @@ image:forge-all-network-05.png[5, 75%]
 * En réalité, on a pas autant de parefeu, mais il faudrait
 ====
 
+[transition="none-in slide-out"]
 == !
 
 image:forge-all-network-06.png[6, 75%]

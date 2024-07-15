@@ -1,6 +1,18 @@
 = Rendre service à nos utilisateurs
+:imagesdir: assets/default/images/
 
-== Une forge pour les gouverner tous
+== !
+
+image:datasource-all-1.png[1, 75%]
+
+[NOTE.speaker]
+====
+On a 256 projets
+====
+
+== !
+
+image:datasource-all-2.png[1, 75%]
 
 * 81 groupes/sous groupes
 * 174 utilisateurs humain
@@ -8,9 +20,19 @@
 
 [NOTE.speaker]
 ====
-Lire le slide
+Réparti dans 81 groupes/sous groupes
+====
 
-On va pas faire ça à la main non plus
+== !
+
+image:datasource-all-3.png[1, 75%]
+
+[NOTE.speaker]
+====
+
+* 174 utilisateurs "humain"
+
+On va pas gérer ça à la main non plus
 Donc as code
 
 MAIS
