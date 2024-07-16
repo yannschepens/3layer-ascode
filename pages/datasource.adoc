@@ -1,6 +1,7 @@
 = Rendre service à nos utilisateurs
 :imagesdir: assets/default/images/
 
+[transition="slide-in none-out"]
 == !
 
 image:datasource-all-1.png[1, 75%]
@@ -10,19 +11,17 @@ image:datasource-all-1.png[1, 75%]
 On a 256 projets
 ====
 
+[transition=fade]
 == !
 
 image:datasource-all-2.png[1, 75%]
-
-* 81 groupes/sous groupes
-* 174 utilisateurs humain
-* 246 projects
 
 [NOTE.speaker]
 ====
 Réparti dans 81 groupes/sous groupes
 ====
 
+[transition="fade-in slide-out"]
 == !
 
 image:datasource-all-3.png[1, 75%]
