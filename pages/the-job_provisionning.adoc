@@ -1,6 +1,9 @@
 = Côté outillage
 
-== Maintenant qu'on a l'infra
+[NOTE.speaker]
+====
+Maintenant qu'on a l'infra
+====
 
 == Calcul des dépendances entre outils
 
