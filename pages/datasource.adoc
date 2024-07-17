@@ -39,16 +39,50 @@ MAIS
 D'où viennent ces infos d'ailleurs ? Et de quoi on parle ?
 ====
 
-== Les projets
+[transition="slide-in none-out"]
+== !
+
+image:datasources-comeandback-project.png[1, 90%]
+
+[NOTE.speaker]
+====
+On a des projets
 
 * Demande des chefs de projets
 * Qui viennent et qui partent
 * Impact sur les configurations des outils
 * Qui sont neufs et des trucs importés
+====
 
-== Des gens
+[transition="fade-in slide-out"]
+== !
+
+image:datasources-comeandback-users.png[1, 90%]
+
+[NOTE.speaker]
+====
+
+Et des utilisateurs, développeurs pour la plupart
 
 * Avec des droits et des roles
 * Associés à des projets
 * Qui viennent et qui partent
 * IDP
+
+Transition : en gros, tout ça ...
+
+====
+
+== !
+
+image:casenva.gif[]
+
+[NOTE.speaker]
+====
+* On a assez peu de contrôle sur ces modifications.
+* Alors qu'elles ont un impact sur la gestion des ressources sur chaque outil.
+* On ne va pas pouvoir gérer ça comme le reste
+* On voit qu'on a un cycle de vie différent de ces ressources là.
+
+Next slide
+====
