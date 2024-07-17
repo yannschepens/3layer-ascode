@@ -1,19 +1,38 @@
-= Et du coup ?
+= Et maintenant ?
 
+[NOTE.speaker]
+====
 * Maintenant qu'on a les schémas et le source de données
 * On s'y colle ?
+====
 
-== Apparté sur notre équipe
+== !
 
-* 7 personnes
+image:team.png[1, 85%]
+
+[NOTE.speaker]
+====
+
+* On doit faire des choix en fonction de notre équipe.
+* On ne va pas gérer de la même façon si on est 5 ou 50
+
+Nous sommes
+
+* 7 personnes dans la matrice, tous avec des niveaux différents
 * 3 adm sys
 * 3 archi logicielle/technique
 * 1 CP touche à tout
+====
 
-== Choix des technos
+== !
 
-* Pas encore mais :
+image:mendeleiev.png[1, 90%]
+
+[NOTE.speaker]
+====
+* On ne sait pas trop encore mais :
 ** Terraform : peut tout faire
-** Salt stack
-** Bash
-** Autre
+** Salt stack : imposer de toute façon
+** Bash : dans tous les cas
+** Et peut-être d'autres trucs
+====
