@@ -33,12 +33,13 @@ image:forge-all-hidden-tools-13.png[1, 90%]
 * Lancement des scripts d'init
 ====
 
-== Gestion des secrets
+== !
 
-image:rsa-key.png[]
+image:rsa-key.png[1, 80%]
 
 [NODE.speaker]
 ====
+* Gestion des secrets
 * Connexion DB, mot de passe root des outils
 ** A générer, stocker dans vault et déployer ça dans les outils
 ====

@@ -46,7 +46,7 @@ image:tools-tasks-sonar.png[2, 75%]
 
 == !
 
-image:tools-tasks-sonar.png[3, 75%]
+image:tools-tasks-artif.png[3, 75%]
 
 [NOTE.speaker]
 ====
