@@ -1,4 +1,5 @@
-= Côté infra
+= A implémenter
+:imagesdir: assets/default/images/
 
 [NOTE.speaker]
 ====
@@ -7,13 +8,30 @@
 
 == La préparation de l'hébergement
 
+image:forge-all.png[1, 80%]
+
 [NOTE.speaker]
 ====
 * Création des comptes/tenants
 * Choix de l'image de base et déploiement des VMs
 ====
 
+== Par VM
+
+image:vm.png[1, 80%]
+
+[NOTE.speaker]
+====
+* Hardening des confs
+* Montage des disques chiffrés
+* Configuration de la sauvegarde
+* Configuration de sécurité par défaut de docker
+* Installation des outils de monitoring
+====
+
 == Les configurations réseaux
+
+image:forge-all-network-06.png[1, 80%]
 
 [NOTE.speaker]
 ====
@@ -22,21 +40,8 @@
 * DNS
 * Configuration Firewall pour l'autorisation des flux entre VMs
 * Configuration des Firewall pour les autorisations de passage entre tenants
-====
-
-== Par VM
-
-[NOTE.speaker]
-====
 * Assignation de l'adressage IP
-* Hardening des confs
-* Montage des disques chiffrés
-* Configuration de la sauvegarde
-* Configuration de sécurité par défaut de docker
 * Reconf des DNS
-* Installation des outils de monitoring
+* Configuration des bastions
+* Configuration du monitoring
 ====
-
-== Configuration des bastions
-
-== Configuration des outils de monitoring
