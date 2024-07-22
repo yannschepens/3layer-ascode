@@ -3,17 +3,17 @@
 
 [NOTE.speaker]
 ====
-Maintenant que les outils sont installés et peuvent communiquer
-Pour que les utilisateurs puissent y accéder
-Il faut bien les configurer
+* Maintenant que les outils sont installés et peuvent communiquer
+* Pour que les utilisateurs puissent y accéder
+* Il faut bien les configurer
 ====
 
 == Deux types de confs
 
 [NOTE.speaker]
 ====
-On a deux types de confs, les confs générales et les confs par projet
-On voit bien que ça ne va se faire au même moment ni avec le même cycle de vie
+* On a deux types de confs, les confs générales et les confs par projet
+* On voit bien que ça ne va se faire au même moment ni avec le même cycle de vie
 ====
 
 == !

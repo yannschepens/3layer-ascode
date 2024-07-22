@@ -37,7 +37,7 @@ image:forge-all-hidden-tools-13.png[1, 90%]
 
 image:rsa-key.png[1, 80%]
 
-[NODE.speaker]
+[NOTE.speaker]
 ====
 * Gestion des secrets
 * Connexion DB, mot de passe root des outils
@@ -46,6 +46,13 @@ image:rsa-key.png[1, 80%]
 
 == Et d'autres trucs
 
-* Les scripts d'init
-* Configuration de l'envoie des logs
+[%step]
+* Les scripts d'initialisation
+* Configuration de l'envoi des logs
 * La configuration du monitoring
+
+[NOTE.speaker]
+====
+Voir slide
+====
+

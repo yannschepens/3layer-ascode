@@ -44,4 +44,6 @@ image:forge-all-network-06.png[1, 80%]
 * Reconf des DNS
 * Configuration des bastions
 * Configuration du monitoring
+
+* Transition => côté provisioning
 ====
