@@ -1,23 +1,88 @@
 = Le As Code
 
-== Les approches
+[NOTE.speaker]
+====
+* Comment organiser tout ça ?
+* Voyons un peu ce qu'il se fait
+====
 
+== Approches orienté outil
 
-== Orienté outil
+[NOTE.speaker]
+====
+* Un peu le classique du DevOps
+* Chaque outil porte sa conf (infra, provisionning et configuration)
+====
 
+== !
+
+[source, shellscript]
+----
+vault
+|-- docs/
+|-- infra/
+|   |-- network/
+|   |-- vm/
+|   |-- ...
+|-- provision/
+|   |-- compose.yaml
+|   |-- config/
+|   |-- certs/
+|-- config/
+|   |-- general/
+|   |-- projects/
+| .gitlab-ci.yml
+----
+
+[NOTE.speaker]
+====
 * Chaque outil porte son infra et son delivery
 * En respectant les règles établies
 * Autonomie de l'équipe
+====
 
-Pro :
+== Pro
+
+[%step]
 * Cohérence intra outillage
-* Gestion des besoins d'infra et de conf
+* Indépendance des outils
+* Propre à gérer
+** un outil -> un dépôt
+
+== Cons
+
+[%step]
+* Partage de code
+* Nécessite des compétences sur toutes les couches
+* Cohérence générale entre les outils
+* Mais surtout :
+** Dépendance entre outils
+
+== !
+
+image:new-user-impact.png[1, 80%]
+
+[NOTE.speaker]
+====
+Par exemple :
+
 * A chaque utilisateur 4 dépôts minimum à toucher
 ** Gitlab/Sonar/Vault/Artifactory
 
-Cons :
-* Y'a toujours des sides effects
-* Dans notre cas, ça aurait été un enfer
+Ou bien :
+====
+
+== !
+
+image:forge-all-hidden-tools-12.png[1, 80%]
+
+[NOTE.speaker]
+====
+Mise à jour des certificats ....
+On modifie tout et on redéclenche tout
+====
+
+== L'enfer !
 
 == Orienté Landing zone
 
