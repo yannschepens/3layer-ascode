@@ -6,7 +6,7 @@
 * Voyons un peu ce qu'il se fait
 ====
 
-== Approches orienté outil
+== Approche orientée outil
 
 [NOTE.speaker]
 ====
@@ -48,13 +48,14 @@ vault
 * Indépendance des outils
 * Propre à gérer
 ** un outil -> un dépôt
+** Environ 30 dépôts et tout autant de CI
 
 == Cons
 
 [%step]
 * Partage de code
 * Nécessite des compétences sur toutes les couches
-* Cohérence générale entre les outils
+* Cohérence générale entre les outils faible
 * Mais surtout :
 ** Dépendance entre outils
 
@@ -84,22 +85,113 @@ On modifie tout et on redéclenche tout
 
 == L'enfer !
 
-== Orienté Landing zone
+== Approche Landing zone
 
+image:landing-zone.png[1, 80%]
+
+[NOTE.speaker]
+====
 * L'infra + le monitoring + la gestion des accès niveau environnement
-* Souvent pour une équipe dédiée
+* Souvent par une équipe dédiée
 * Pour de l'accueil d'autres projets d'autres équipes
+====
 
-Pro :
+== Côté Admin Sys
+
+[cols="2"]
+|===
+a|
+[source, shellscript]
+----
+catalog
+\|-- docs/
+\|-- infra/
+\|   \|-- network/
+\|   \|-- vm/
+\|   \|-- tools/
+\|   \|   \|-- db/
+\|   \|   \|-- s3/
+----
+a|
+[source, shellscript]
+----
+infra
+\|-- docs/
+\|-- env/
+\|-- security/
+\|-- access/
+\|-- network/
+\|-- ...
+----
+|===
+
+[NOTE.speaker]
+====
+* En gros, deux dépôts à maintenir
+* Un avec les bases de l'infra
+* L'autre avec le catalog
+====
+
+== Côté Projet
+
+[source, shellscript]
+----
+vault
+|-- docs/
+|-- infra/
+|   |-- network/
+|   |-- vm/
+|   |-- ...
+|-- provision/
+|   |-- compose.yaml
+|   |-- config/
+|   |-- certs/
+|-- config/
+|   |-- general/
+|   |-- projects/
+| .gitlab-ci.yml
+----
+
+[NOTE.speaker]
+====
+* Plus ou moins pareil que la première partie, donc libre
+* Mais basé sur un catalog
+* Pas d'accès à gérer et de couche trop basse à gérer
+====
+
+== Pro
+
+[%step]
 * Cohérence de l'infra
 * Sécurité ++
 
-Cons :
-* Ben, nous on déploie toujours les mêmes outils
-* Tous nos outils fonctionnent ensemble
+[NOTE.speaker]
+====
+* Approche top, décorrelation "fonctionnel" et "technique"
+* Normalisation et contrôle des couches basses
+* Seulement sur catalog
+====
+
+== Cons
+
+[%step]
+* On déploie toujours les mêmes outils
+* Qui fonctionnent ensemble
+* Beaucoup de travail
+* Ça ne correspond pas à notre besoin
+
+[NOTE.speaker]
+====
+* Lire les slides
+* On est trop petit
+* Trop de maintenance du catalog
+* Pas nécessaire, on accueille pas d'autres équipes
+====
 
 == Chez nous, tout touche à tout
 
+[NOTE.speaker]
+====
 * Ex.: Si l'auth gitlab change
 ** Regeneration des services accounts
 ** Modification artif
@@ -109,6 +201,7 @@ Cons :
 ** Ouverture de flux => Infra
 ** Branchement avec les outils qui s'en serve => Provisionning
 ** Configuration des accès pour les projets => Projet
+====
 
 == Tout dans le même dépôt ?
 
