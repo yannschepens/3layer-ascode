@@ -1,28 +1,33 @@
-= L'instant reflexion
-
-== Les questions qu'on s'est posé
-
-* Qu'est-ce qui nous amène à toucher le code ?
-* A quelle fréquence ?
-* Qui est compétent pour toucher à quoi ?
-
-== Pourquoi on touche le code ?
-
-* Certaines modifications sont globales à l'infra
-** Update debian/Configuration de base des VMs
-* Mise à jour de logiciel
-** Unique à un logiciel
-* Modification des flux de communication
-** Globale mais rare
-* Ajout d'un utilisateur/projet
-** Impact limité mais sur plusieurs outils
+= Une approche opérationnelle
 
 [NOTE.speaker]
 ====
-Au-delà de l'impact, c'est surtout la fréquence qui change
+On s'est la question d'une manière différente
+
+* Qu'est-ce qui nous amène à toucher le code ?
+* A quelle fréquence ?
+* Quel impact ?
+* Qui est compétent pour toucher à quoi ?
 ====
 
-== La fréquence
+
+== Type de modifications
+
+[%step]
+* Update debian : Rare - Global - Admsys
+* Màj Outils : Variable - Localisé - Peu importe
+* Modif flux : Rarissime - Global - Admsys
+* Ajout d'un user : Fréquent - 4 outils - Chef de projet
+
+[NOTE.speaker]
+====
+* Au-delà de l'impact, c'est surtout la fréquence qui change
+* On voit aussi que ce ne sont pas vraiment les mêmes acteurs
+* Donc, si on se penche sur le fréquence
+* De toute façon, il est hors de question qu'un CP touche aux dépôts
+====
+
+== Les types de fréquence
 
 * Modif d'infra : plutôt rare et maitrisé
 ** Souvent de notre volonté, donc maitrisé
