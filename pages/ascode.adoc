@@ -154,7 +154,7 @@ vault
 
 [NOTE.speaker]
 ====
-* Plus ou moins pareil que la première partie, donc libre
+* Plus ou moins pareil que la première partie, donc plutôt libre
 * Mais basé sur un catalog
 * Pas d'accès à gérer et de couche trop basse à gérer
 ====
@@ -201,30 +201,41 @@ vault
 ** Ouverture de flux => Infra
 ** Branchement avec les outils qui s'en serve => Provisionning
 ** Configuration des accès pour les projets => Projet
+
+Transition : Du coup, la solution ne serait pas ?
 ====
 
-== Tout dans le même dépôt ?
+== Monorepo ?
 
+[NOTE.speaker]
+====
+* A chaque modification, au moins on a accès à tout
+* On peut mettre des garde-fous
+* Cohérence ++
+====
+
+== !
+
+image:nope.png[]
+
+[NOTE.speaker]
+====
 * A chaque nouvel utilisateur, on rejoue tout ?
 ** Même avec des astuces, complexité accrue
 ** Branching Git horrible
 
-* Monté de version d'un outil ?
+* Montée de version d'un outil ?
 ** Idem, on risque en plus de peter un truc
 
 * Fréquence d'exécution du script
 ** Trop fréquent pour un truc qui attaque toute l'infra
+====
 
-== Par outils ?
+== Voyons les choses autrement
 
-* Indépendance/Autonomie
-* Gestion de la configuration par projet jusqu'à l'infra
-** Pratique en cas de changement de version, ça permet de rester cohérent
-** Facilitation de la gestion infra si besoin de nouveau flux, nouvelles ressources
-* Mais
-** Vu le nombre d'outils
-** Code : Gardez une cohérence en terme de style, de règles d'écriture
-** Cohérence générale : Y'a toujours des effets de bord, des non compatibilités, des dépendances à gérer
-** Demande des compétences sur toutes les couches
-
-== Autrement ?
+[NOTE.speaker]
+====
+* Là, on a une approche plutôt statique des choses.
+* On sépare en couche, on tri par infra, provisionning, configuration
+* Il y a peut-être moyen de faire autrement
+====
