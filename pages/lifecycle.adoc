@@ -1,4 +1,5 @@
 = Une approche opérationnelle
+:imagesdir: assets/default/images/
 
 [NOTE.speaker]
 ====
@@ -8,27 +9,65 @@ On s'est la question d'une manière différente
 * A quelle fréquence ?
 * Quel impact ?
 * Qui est compétent pour toucher à quoi ?
+* Regardons sur une timeline
 ====
 
+[transition="slide-in none-out"]
+== !
 
-== Type de modifications
-
-[%step]
-* Update debian : Rare - Global - Admsys
-* Màj Outils : Variable - Localisé - Peu importe
-* Modif flux : Rarissime - Global - Admsys
-* Ajout d'un user : Fréquent - 4 outils - Chef de projet
+image:updates-2.png[1, 80%]
 
 [NOTE.speaker]
 ====
+* Mise à jour debian
+* Rare, global et par les admins
+====
+
+[transition=fade]
+== !
+
+image:updates-3.png[1, 80%]
+
+[NOTE.speaker]
+====
+* Mise à jour D'un outil
+* Variables, ciblé et par les admins
+====
+
+[transition=fade]
+== !
+
+image:updates-4.png[1, 80%]
+
+[NOTE.speaker]
+====
+* Mise à jour D'un outil
+* Variables, ciblé et par les admins
+====
+
+[transition="fade-in slide-out"]
+== !
+
+image:updates-5.png[1, 80%]
+
+[NOTE.speaker]
+====
+* Ajout d'un utilisateur
+* fréquent, multi cible et par les chef de projets
+
 * Au-delà de l'impact, c'est surtout la fréquence qui change
 * On voit aussi que ce ne sont pas vraiment les mêmes acteurs
 * Donc, si on se penche sur le fréquence
 * De toute façon, il est hors de question qu'un CP touche aux dépôts
+* Donc on a plusieurs types de fréquence
 ====
 
-== Les types de fréquence
+== !
 
+image:frequency.png[1, 50%]
+
+[NOTE.speaker]
+====
 * Modif d'infra : plutôt rare et maitrisé
 ** Souvent de notre volonté, donc maitrisé
 * Modif logiciel (provisionning) : Instable mais maitrisé à court terme
@@ -37,10 +76,6 @@ On s'est la question d'une manière différente
 * Gestion des utilisateurs et projet : Instable et non maitrisé
 ** Doit être fait le plus rapidement possible
 ** Sans impact sur le reste de la plateforme
-
-[NOTE.speaker]
-====
-Ici, on se rend compte, qu'on 3 types de temporalités
 ====
 
 == Les temporalités
