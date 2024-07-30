@@ -78,13 +78,17 @@ image:frequency.png[1, 50%]
 ** Sans impact sur le reste de la plateforme
 ====
 
-== Les temporalités
+== 3 temporalités
 
-* Très Fréquent
+[%step]
+* Très fréquent
 * De temps en temps
 * Rare
 
-== Donc découpe en 3 couche/temps
+== Donc découpe en 3 couches
+
+[%step]
+3 temps
 
 [NOTE.speaker]
 ====
