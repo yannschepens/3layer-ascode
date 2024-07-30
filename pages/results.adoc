@@ -1,33 +1,105 @@
 = Découpage final
 
-== Trois couches pour la fréquence
+== Rare
 
-* L'infra
-* Le provisionning
-* La configuration par projet
+[NOTE.speaker]
+====
+* Globalement l'infra
+* Du provisioning des environnements à la configuration de base des VM
+** Docker, les confs debian de base, et les accès ssh, etc.
+* Conf spécifique artifactory pour les repos remote
+** Problème oeuf/poule ici, donc quelques install cold à la main, mais les mises à jour se font dans la couche d'après
+** Artif et vault
 
-== L'infra
+====
 
+== Organisation des sources
+
+[NOTE.speaker]
+====
+* 4 dépôts pour 5 env
+** Prod et dev étant similaire
 * Tout dans le même dépôt
 ** On a besoin d'avoir une vision globale de l'infra quand on fait une modification
+====
 
-== Le provisionning
+== Les technos
 
+[NOTE.speaker]
+====
+* Terraform
+* Packer
+* bash et curl
+* CI mais pas de CD, on fait les apply à la main
+** Ce n'est pas un problème, c'est plutôt rare
+====
+
+== Variables
+
+[NOTE.speaker]
+====
+* Globalement
+** Provisionning
+** Configurations de base des outils
+** Compte d'administration
+** Configuration du monitoring
+====
+
+== Organisation des sources
+
+[NOTE.speaker]
+====
 * Un dépôt par outil
-** Le rythme des mises à jour est différente
+** Le rythme des mises à jour est différente entre outil
 
 * C'est plus complexe, mais l'impact est moindre
 ** Un seul dépôt qui contient du code partagé
 
-== La configuration
+* Lien entre les dépôts sur la cold install mais très indépendant pour les mises à jour
+====
+
+== Les technos
+
+[NOTE.speaker]
+====
+* Salt stack
+* CI pour le control
+* CD pour certains outils, mais on a voulu garder la mise à jour manuelle dans certains cas
+====
+
+== Fréquent
+
+[NOTE.speaker]
+====
+La configuration orienté produit
 
 * Un programme qui gère le tout
 ** Permet de mettre à jour tous les outils en même temps
 ** Ajout/suppresion d'user/project
 ** Renew de token => on reparle un peu après
+====
 
-== Comment on maintient la cohérence de tout ça ?
+== Organisation des sources
 
+[NOTE.speaker]
+====
+* Un seul dépôt
+====
+
+== Les technos
+
+[NOTE.speaker]
+====
+* Du NodeJs puis du Terraform
+* On est en train de passer à Pulumi
+* Les fichiers d'état aident beaucoup
+* Full automatisé, sinon ce n'est pas jouable
+====
+
+== Et la cohérence de tout ça ?
+
+[NOTE.speaker]
+====
 * Le maintient se fait par couche
 * Il y a une indépendance de chaque layer
 * Conséquence anti devops
@@ -35,3 +107,4 @@
 ** L'infra : les admin sys
 ** Le provisioning : admin et dev/archi
 ** Les utilisateurs/configuration des outils : les CPs (en passant par les devs et archi)
+====
