@@ -1,6 +1,20 @@
 = Découpage final
+:imagesdir: assets/default/images/
 
-== Rare
+[transition="slide-in fade-out"]
+== !
+
+image:rare-frequency-1.png[1, 80%]
+
+[NOTE.speaker]
+====
+Rare
+====
+
+[transition=fade]
+== !
+
+image:rare-frequency-2.png[1, 80%]
 
 [NOTE.speaker]
 ====
@@ -13,20 +27,30 @@
 
 ====
 
-== Organisation des sources
+[transition=fade]
+== !
+
+image:rare-frequency-3.png[1, 80%]
 
 [NOTE.speaker]
 ====
+Organisation des sources
+
 * 4 dépôts pour 5 env
 ** Prod et dev étant similaire
 * Tout dans le même dépôt
 ** On a besoin d'avoir une vision globale de l'infra quand on fait une modification
 ====
 
-== Les technos
+[transition="fade-in slide-out"]
+== !
+
+image:rare-frequency-4.png[1, 80%]
 
 [NOTE.speaker]
 ====
+Les technos
+
 * Terraform
 * Packer
 * bash et curl
