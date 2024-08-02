@@ -58,21 +58,41 @@ Les technos
 ** Ce n'est pas un problème, c'est plutôt rare
 ====
 
-== Variables
+[transition="slide-in fade-out"]
+== !
+
+image:variable-frequency-1.png[1, 80%]
 
 [NOTE.speaker]
 ====
-* Globalement
+Les modifications variables
+====
+
+
+[transition=fade]
+== !
+
+image:variable-frequency-2.png[1, 80%]
+
+[NOTE.speaker]
+====
+* Globalement : du cold install et configuration
 ** Provisionning
 ** Configurations de base des outils
 ** Compte d'administration
 ** Configuration du monitoring
+* Mais surtout pour les mises à jour
 ====
 
-== Organisation des sources
+[transition=fade]
+== !
+
+image:variable-frequency-3.png[1, 80%]
 
 [NOTE.speaker]
 ====
+Les sources
+
 * Un dépôt par outil
 ** Le rythme des mises à jour est différente entre outil
 
@@ -82,7 +102,10 @@ Les technos
 * Lien entre les dépôts sur la cold install mais très indépendant pour les mises à jour
 ====
 
-== Les technos
+[transition="fade-in slide-out"]
+== !
+
+image:variable-frequency-4.png[1, 80%]
 
 [NOTE.speaker]
 ====
