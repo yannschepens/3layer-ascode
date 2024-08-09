@@ -114,7 +114,20 @@ image:variable-frequency-4.png[1, 80%]
 * CD pour certains outils, mais on a voulu garder la mise à jour manuelle dans certains cas
 ====
 
-== Fréquent
+[transition="slide-in fade-out"]
+== !
+
+image:frequent-frequency-1.png[1, 80%]
+
+[NOTE.speaker]
+====
+Fréquent
+====
+
+[transition=fade]
+== !
+
+image:frequent-frequency-2.png[1, 80%]
 
 [NOTE.speaker]
 ====
@@ -126,14 +139,22 @@ La configuration orienté produit
 ** Renew de token => on reparle un peu après
 ====
 
-== Organisation des sources
+[transition=fade]
+== !
+
+image:frequent-frequency-3.png[1, 80%]
 
 [NOTE.speaker]
 ====
+Organisation des sources
+
 * Un seul dépôt
 ====
 
-== Les technos
+[transition="fade-in slide-out"]
+== !
+
+image:frequent-frequency-4.png[1, 80%]
 
 [NOTE.speaker]
 ====
@@ -144,6 +165,15 @@ La configuration orienté produit
 ====
 
 == Et la cohérence de tout ça ?
+
+[NOTE.speaker]
+====
+Comment on gère la cohérence de l'ensemble ?
+====
+
+== !
+
+image:recap.png[1, 80%]
 
 [NOTE.speaker]
 ====
