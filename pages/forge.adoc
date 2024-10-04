@@ -33,17 +33,17 @@ Mais en vrai de vrai ?
 
 == !
 
-image:forge-simple.png[]
+image:base-tools.png[1, 90%]
 
 [NOTE.speaker]
 ====
-
 Les outils de base
 
 * C'est moins classe quand même
 * Bon j'exagère, mais ce sont souvent les outils de base
 * Trop, cool, trois outils, ça va pas être compliqué
 ====
+
 
 == Notre forge alors ?
 
@@ -68,7 +68,7 @@ image:too-simple.png[]
 * Salut ! Eh ben non !
 ====
 
-[transition="slide-in none-out"]
+[.img-lighter, transition="slide-in none-out"]
 == !
 
 image::forge-simple-on-prem.png[]
@@ -84,7 +84,7 @@ On premise
 * On a une infra à monter
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
 image::forge-simple-with-k8s.png[]
@@ -97,7 +97,7 @@ En plus, notre hebergeur le propose
 
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
 image::forge-simple-with-k8s-nope.png[]
@@ -111,7 +111,7 @@ Du coup ?
 
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
 image::forge-simple-vm-docker.png[]
@@ -129,7 +129,7 @@ Ha, on a oublié de vous dire
 
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
 image::forge-simple-no-internet.png[]
@@ -141,6 +141,7 @@ image::forge-simple-no-internet.png[]
 ** Sécurité
 ====
 
+[.img-lighter, transition="none-in slide-out"]
 == !
 
 image::forge-simple-relai.png[]

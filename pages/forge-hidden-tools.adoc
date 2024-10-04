@@ -19,9 +19,10 @@ Déjà, qu'avons-nous besoin comme env'
 
 ====
 
+[.img-lighter]
 == Les environnements
 
-image:forge-all.png[forge,75%]
+image:forge-all.png[forge,80%]
 
 [NOTE.speaker]
 ====
@@ -51,9 +52,10 @@ image:paroucommencer.png[]
 * Et on remonte
 ====
 
+[.img-lighter]
 == Côté VM
 
-image:vm.png[vm, 75%]
+image:vm.png[vm, 80%]
 
 [NOTE.speaker]
 ====
@@ -77,10 +79,10 @@ image:vm.png[vm, 75%]
 * Ca va nous permettre de voir quelle approche avoir en terme d'organisation du code
 ====
 
-[transition="slide-in none-out"]
+[.img-lighter, transition="slide-in none-out"]
 == !
 
-image:forge-all-hidden-tools-1.png[1, 75%]
+image:forge-all-hidden-tools-1.png[1, 90%]
 
 [NOTE.speaker]
 ====
@@ -89,20 +91,20 @@ image:forge-all-hidden-tools-1.png[1, 75%]
 * On va virer les flèches
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-2.png[2, 75%]
+image:forge-all-hidden-tools-2.png[2, 90%]
 
 [NOTE.speaker]
 ====
 * Virer les détails
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-3.png[3, 75%]
+image:forge-all-hidden-tools-3.png[3, 90%]
 
 [NOTE.speaker]
 ====
@@ -110,20 +112,20 @@ image:forge-all-hidden-tools-3.png[3, 75%]
 * On va faire un peu de place
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-4.png[4, 75%]
+image:forge-all-hidden-tools-4.png[4, 90%]
 
 [NOTE.speaker]
 ====
 * Et réduire les blocs
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-5.png[5, 75%]
+image:forge-all-hidden-tools-5.png[5, 90%]
 
 [NOTE.speaker]
 ====
@@ -134,40 +136,40 @@ image:forge-all-hidden-tools-5.png[5, 75%]
 * On ajoute les runner
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-6.png[5, 75%]
+image:forge-all-hidden-tools-6.png[5, 90%]
 
 [NOTE.speaker]
 ====
 * Ensuite, on a XRay avec Artif'
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-7.png[5, 75%]
+image:forge-all-hidden-tools-7.png[5, 90%]
 
 [NOTE.speaker]
 ====
 * Et les DB pour chaque outil
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-8.png[5, 75%]
+image:forge-all-hidden-tools-8.png[5, 90%]
 
 [NOTE.speaker]
 ====
 * On a besoin de gérer des secrets
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-9.png[5, 75%]
+image:forge-all-hidden-tools-9.png[5, 90%]
 
 [NOTE.speaker]
 ====
@@ -175,10 +177,10 @@ image:forge-all-hidden-tools-9.png[5, 75%]
 * On a besoin d'envoyer des mails
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-10.png[5, 75%]
+image:forge-all-hidden-tools-10.png[5, 90%]
 
 [NOTE.speaker]
 ====
@@ -186,10 +188,10 @@ image:forge-all-hidden-tools-10.png[5, 75%]
 * On a besoin de pouvoir se connecter à tout ça
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-11.png[5, 75%]
+image:forge-all-hidden-tools-11.png[5, 90%]
 
 [NOTE.speaker]
 ====
@@ -197,10 +199,10 @@ image:forge-all-hidden-tools-11.png[5, 75%]
 * Il faut pouvoir monitorer tout ça
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-12.png[5, 75%]
+image:forge-all-hidden-tools-12.png[5, 90%]
 
 [NOTE.speaker]
 ====
@@ -208,10 +210,10 @@ image:forge-all-hidden-tools-12.png[5, 75%]
 * Et un aggrégateur de logs + monitoring supplémentaire
 ====
 
-[transition="none-in slide-out"]
+[.img-lighter, transition="none-in slide-out"]
 == !
 
-image:forge-all-hidden-tools-13.png[5, 75%]
+image:forge-all-hidden-tools-13.png[5, 90%]
 
 [NOTE.speaker]
 ====
@@ -240,10 +242,10 @@ image:switch.png[]
 * Commençons par organiser ce beau foutoir
 ====
 
-[transition="slide-in none-out"]
+[.img-lighter, transition="slide-in none-out"]
 == !
 
-image:forge-all-network-01.png[1, 75%]
+image:forge-all-network-01.png[1, 90%]
 
 [NOTE.speaker]
 ====
@@ -252,10 +254,10 @@ image:forge-all-network-01.png[1, 75%]
 * Simplification des règles IP et filtrage
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-network-02.png[2, 75%]
+image:forge-all-network-02.png[2, 90%]
 
 [NOTE.speaker]
 ====
@@ -263,20 +265,20 @@ image:forge-all-network-02.png[2, 75%]
 * Et configuration des ports ouverts sur les machines
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-network-03.png[3, 75%]
+image:forge-all-network-03.png[3, 90%]
 
 [NOTE.speaker]
 ====
 * Un petit DNS histoire de nous simplifier la vie
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-network-04.png[4, 75%]
+image:forge-all-network-04.png[4, 90%]
 
 [NOTE.speaker]
 ====
@@ -285,10 +287,10 @@ image:forge-all-network-04.png[4, 75%]
 * Double configuration réseau technique et réseau utilisateur
 ====
 
-[transition=none]
+[.img-lighter, transition=none]
 == !
 
-image:forge-all-network-05.png[5, 75%]
+image:forge-all-network-05.png[5, 90%]
 
 [NOTE.speaker]
 ====
@@ -296,20 +298,25 @@ image:forge-all-network-05.png[5, 75%]
 * En réalité, on a pas autant de parefeu, mais il faudrait
 ====
 
-[transition="none-in slide-out"]
+[.img-lighter, transition="none-in slide-out"]
 == !
 
-image:forge-all-network-06.png[6, 75%]
+image:forge-all-network-06.png[6, 90%]
 
 [NOTE.speaker]
 ====
 * Heureusement qu'on a fait un peu de place sur le schéma
 ====
 
-== x4
+[.img-lighter]
+== !
+
+image:x4.png[6, 90%]
 
 [NOTE.speaker]
 ====
+x4
+
 Il faut faire le même boulot pour les autres zones
 ====
 

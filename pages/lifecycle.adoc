@@ -62,9 +62,10 @@ image:updates-5.png[1, 80%]
 * Donc on a plusieurs types de fréquence
 ====
 
+[.img-lighter]
 == !
 
-image:frequency.png[1, 50%]
+image:frequency.png[]
 
 [NOTE.speaker]
 ====

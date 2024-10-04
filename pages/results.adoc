@@ -1,7 +1,7 @@
 = Découpage final
 :imagesdir: assets/default/images/
 
-[transition="slide-in fade-out"]
+[.img-lighter, transition="slide-in fade-out"]
 == !
 
 image:rare-frequency-1.png[1, 80%]
@@ -11,7 +11,7 @@ image:rare-frequency-1.png[1, 80%]
 Rare
 ====
 
-[transition=fade]
+[.img-lighter, transition=fade]
 == !
 
 image:rare-frequency-2.png[1, 80%]
@@ -27,7 +27,7 @@ image:rare-frequency-2.png[1, 80%]
 
 ====
 
-[transition=fade]
+[.img-lighter, transition=fade]
 == !
 
 image:rare-frequency-3.png[1, 80%]
@@ -42,7 +42,7 @@ Organisation des sources
 ** On a besoin d'avoir une vision globale de l'infra quand on fait une modification
 ====
 
-[transition="fade-in slide-out"]
+[.img-lighter, transition="fade-in slide-out"]
 == !
 
 image:rare-frequency-4.png[1, 80%]
@@ -58,7 +58,7 @@ Les technos
 ** Ce n'est pas un problème, c'est plutôt rare
 ====
 
-[transition="slide-in fade-out"]
+[.img-lighter, transition="slide-in fade-out"]
 == !
 
 image:variable-frequency-1.png[1, 80%]
@@ -69,7 +69,7 @@ Les modifications variables
 ====
 
 
-[transition=fade]
+[.img-lighter, transition=fade]
 == !
 
 image:variable-frequency-2.png[1, 80%]
@@ -84,7 +84,7 @@ image:variable-frequency-2.png[1, 80%]
 * Mais surtout pour les mises à jour
 ====
 
-[transition=fade]
+[.img-lighter, transition=fade]
 == !
 
 image:variable-frequency-3.png[1, 80%]
@@ -92,6 +92,8 @@ image:variable-frequency-3.png[1, 80%]
 [NOTE.speaker]
 ====
 Les sources
+
+~30 dépôt
 
 * Un dépôt par outil
 ** Le rythme des mises à jour est différente entre outil
@@ -102,7 +104,7 @@ Les sources
 * Lien entre les dépôts sur la cold install mais très indépendant pour les mises à jour
 ====
 
-[transition="fade-in slide-out"]
+[.img-lighter, transition="fade-in slide-out"]
 == !
 
 image:variable-frequency-4.png[1, 80%]
@@ -114,7 +116,7 @@ image:variable-frequency-4.png[1, 80%]
 * CD pour certains outils, mais on a voulu garder la mise à jour manuelle dans certains cas
 ====
 
-[transition="slide-in fade-out"]
+[.img-lighter, transition="slide-in fade-out"]
 == !
 
 image:frequent-frequency-1.png[1, 80%]
@@ -124,7 +126,7 @@ image:frequent-frequency-1.png[1, 80%]
 Fréquent
 ====
 
-[transition=fade]
+[.img-lighter, transition=fade]
 == !
 
 image:frequent-frequency-2.png[1, 80%]
@@ -139,7 +141,7 @@ La configuration orienté produit
 ** Renew de token => on reparle un peu après
 ====
 
-[transition=fade]
+[.img-lighter, transition=fade]
 == !
 
 image:frequent-frequency-3.png[1, 80%]
@@ -151,7 +153,7 @@ Organisation des sources
 * Un seul dépôt
 ====
 
-[transition="fade-in slide-out"]
+[.img-lighter, transition="fade-in slide-out"]
 == !
 
 image:frequent-frequency-4.png[1, 80%]
@@ -171,6 +173,7 @@ image:frequent-frequency-4.png[1, 80%]
 Comment on gère la cohérence de l'ensemble ?
 ====
 
+[.img-lighter]
 == !
 
 image:recap.png[1, 80%]

@@ -16,9 +16,10 @@
 * On voit bien que ça ne va se faire au même moment ni avec le même cycle de vie
 ====
 
+[.img-lighter]
 == !
 
-image:tools-tasks-gitlab.png[1, 75%]
+image:tools-tasks-gitlab.png[1, 90%]
 
 [NOTE.speaker]
 ====
@@ -31,9 +32,10 @@ image:tools-tasks-gitlab.png[1, 75%]
 * Et donc pas forcement avec les mêmes outils
 ====
 
+[.img-lighter]
 == !
 
-image:tools-tasks-sonar.png[2, 75%]
+image:tools-tasks-sonar.png[2, 90%]
 
 [NOTE.speaker]
 ====
@@ -44,9 +46,10 @@ image:tools-tasks-sonar.png[2, 75%]
 ** les échanges d'access token par projet
 ====
 
+[.img-lighter]
 == !
 
-image:tools-tasks-artif.png[3, 75%]
+image:tools-tasks-artif.png[3, 90%]
 
 [NOTE.speaker]
 ====
@@ -58,9 +61,10 @@ image:tools-tasks-artif.png[3, 75%]
 ** Le choix des technos pour les dépôts
 ====
 
+[.img-lighter]
 == !
 
-image:tools-tasks-vault.png[4, 75%]
+image:tools-tasks-vault.png[4, 90%]
 
 [NOTE.speaker]
 ====

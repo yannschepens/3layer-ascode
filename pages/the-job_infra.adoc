@@ -6,6 +6,7 @@
 * Récap rapide
 ====
 
+[.img-lighter]
 == La préparation de l'hébergement
 
 image:forge-all.png[1, 80%]
@@ -16,6 +17,7 @@ image:forge-all.png[1, 80%]
 * Choix de l'image de base et déploiement des VMs
 ====
 
+[.img-lighter]
 == Par VM
 
 image:vm.png[1, 80%]
@@ -29,6 +31,7 @@ image:vm.png[1, 80%]
 * Installation des outils de monitoring
 ====
 
+[.img-lighter]
 == Les configurations réseaux
 
 image:forge-all-network-06.png[1, 80%]

@@ -44,19 +44,21 @@ image:updates-5.png[1, 60%]
 Qu'est ce qu'il se passe quand on a une modification ?
 ====
 
+[.img-lighter]
 == !
 
 image:impact.png[1, 80%]
 
 [NOTE.speaker]
 ====
-* L'impact se fait de bas en haut
+* L'impact se fait de la gauche vers la droite haut (des couches basses aux couches hautes)
 ** infra => provisionning => configuration
 * Mais du coup, du plus rare au moins rare
 ** Et merci docker pour atténuer les montées de version des OS
 * Donc parfois, quand on met à jour l'infra, il faut modifier plus haut etc.
 ====
 
+[.img-lighter]
 == Maintien de la cohérence du code
 
 image:recap.png[1, 60%]

@@ -1,9 +1,10 @@
 = Pour conclure
 :imagesdir: assets/default/images/
 
+[.img-lighter]
 == !
 
-image:frequency.png[1, 60%]
+image:frequency.png[]
 
 [NOTE.speaker]
 ====

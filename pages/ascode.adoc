@@ -59,6 +59,7 @@ vault
 * Mais surtout :
 ** Dépendance entre outils
 
+[.img-lighter]
 == !
 
 image:new-user-impact.png[1, 80%]
@@ -73,6 +74,7 @@ Par exemple :
 Ou bien :
 ====
 
+[.img-lighter]
 == !
 
 image:forge-all-hidden-tools-12.png[1, 80%]
@@ -85,6 +87,7 @@ On modifie tout et on redéclenche tout
 
 == L'enfer !
 
+[.img-lighter]
 == Approche Landing zone
 
 image:landing-zone.png[1, 80%]
@@ -216,7 +219,7 @@ Transition : Du coup, la solution ne serait pas ?
 
 == !
 
-image:nope.png[]
+image:nope.png[1, 80%]
 
 [NOTE.speaker]
 ====
@@ -229,6 +232,8 @@ image:nope.png[]
 
 * Fréquence d'exécution du script
 ** Trop fréquent pour un truc qui attaque toute l'infra
+
+* De toute façon, on ne sait pas faire
 ====
 
 == Voyons les choses autrement

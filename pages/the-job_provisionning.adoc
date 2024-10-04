@@ -19,6 +19,7 @@ image:poule.png[]
 ** Il faut bien déployer vault avant le reste pour y stocker les secrets
 ====
 
+[.img-lighter]
 == !
 
 image:forge-all-hidden-tools-13.png[1, 90%]
