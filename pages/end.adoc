@@ -1,1 +1,4 @@
 = Merci à tous
+:imagesdir: assets/default/images
+
+image::qr-code.png[1, 50%]
