@@ -22,7 +22,7 @@ a|[.yann-intro-title]
 De l'infra à la config', as code en 3 temps
 
 [.yann-intro-event]
-Volcamp - 10/11 octobre 2024
+TNT - 6 février 2025
 |===
 
 include::pages/start.adoc[leveloffset=+1]

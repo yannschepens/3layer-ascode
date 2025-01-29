@@ -1,10 +1,10 @@
-<mxfile host="Electron" modified="2024-07-16T07:20:41.449Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="mWUtvUncZViyjeYOLDpg" version="24.6.4" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
   <diagram name="Page-1" id="ArggVRcA3KCWK8be0kux">
-    <mxGraphModel dx="1392" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fPXWiVqVN3YhBAkrnhgu-1" value="&lt;font style=&quot;&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 98px;&quot;&gt;246&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="fPXWiVqVN3YhBAkrnhgu-1" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 98px;&quot;&gt;246&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000, #121212);" parent="1" vertex="1">
           <mxGeometry x="440" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fPXWiVqVN3YhBAkrnhgu-2" value="Projects" parent="0" />
@@ -12,7 +12,7 @@
           <mxGeometry x="585" y="120" width="182.08" height="122.03" as="geometry" />
         </mxCell>
         <mxCell id="fPXWiVqVN3YhBAkrnhgu-3" value="Groupes" parent="0" />
-        <mxCell id="fPXWiVqVN3YhBAkrnhgu-4" value="&lt;font style=&quot;&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 98px;&quot;&gt;81&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="fPXWiVqVN3YhBAkrnhgu-3" vertex="1">
+        <mxCell id="fPXWiVqVN3YhBAkrnhgu-4" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 98px;&quot;&gt;81&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="fPXWiVqVN3YhBAkrnhgu-3" vertex="1">
           <mxGeometry x="120" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fPXWiVqVN3YhBAkrnhgu-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.cotemaison.fr/medias_11928/w_2048,h_1146,c_crop,x_0,y_215/w_640,h_360,c_fill,g_north/v1560780475/ruches-colorees-dans-un-jardin_6107379.jpg;" parent="fPXWiVqVN3YhBAkrnhgu-3" vertex="1">
@@ -22,7 +22,7 @@
         <mxCell id="fPXWiVqVN3YhBAkrnhgu-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.arte.tv/sites/olivierpere/files/073418-000-a-shaun-of-the-dead-2095565-1497950719.jpg;" parent="fPXWiVqVN3YhBAkrnhgu-9" vertex="1">
           <mxGeometry x="850" y="414" width="230" height="153.34" as="geometry" />
         </mxCell>
-        <mxCell id="fPXWiVqVN3YhBAkrnhgu-15" value="&lt;font style=&quot;&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 98px;&quot;&gt;174&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="fPXWiVqVN3YhBAkrnhgu-9" vertex="1">
+        <mxCell id="fPXWiVqVN3YhBAkrnhgu-15" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 98px;&quot;&gt;174&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="fPXWiVqVN3YhBAkrnhgu-9" vertex="1">
           <mxGeometry x="710" y="480" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
