@@ -1,4 +1,8 @@
 = Merci à tous
 :imagesdir: assets/default/images
 
-image::qr-code.png[1, 50%]
+[cols="3,2",frame=none,grid=none]
+|===
+a|image::qr-code.png[1, 80%]
+a|image::qrcode-op.png[1, 60%]
+|===
