@@ -11,7 +11,7 @@ Creusons un peu le sujet
 Disclaimer, certains choix :
 * Pas ouf
 * Demandé par le client
-* Sympa au début, puis problèmatique après
+* Sympa au début, puis problématique après
 
 Commençons par les environnements
 
@@ -28,9 +28,9 @@ image:forge-all.png[forge,80%]
 ====
 
 * Ah ...
-* Un env de test pour nous, prod pour les devs, admin pour gérer tout ça, backups externes, un isolé pour sortir
-* Ca va être drôle à implémenter tout ça
-* Ca change de nos 3 pauvres services à déployer
+* Cinq environnements : un dev et un prod similaires, un admin pour gérer tout ça, un de sauvegardes/backups, et un isolé pour la sortie
+* Ça va être drôle à implémenter tout ça
+* Ça change de nos 3 pauvres services à déployer
 * On voit :
 ** De la gestion d'env, du réseau, tout un tas de VM à déployer
 
@@ -67,14 +67,14 @@ image:vm.png[vm, 80%]
 * Chiffrage disque => Provisioning ?
 * Montage des disques ? => infra, provisioning
 * Soit dans un image de base à maintenir, soit à rejoué sur les dizaines de VM à chaque déploiement/MAJ  => Packer ?, infra (terraform)
-* Avant de passer au couche réseau, je crois qu'on a oublié quelques éléments
+* Avant de passer aux couches réseau, je crois qu'on a oublié quelques éléments
 ====
 
 == Les outils invisibles
 
 [NOTE.speaker]
 ====
-* Vu qu'on ne peut pas utiliser d'outils Saas, ni d'accès au net
+* Vu qu'on ne peut pas utiliser d'outils Saas, ni d'accès au net,
 * Va falloir qu'on s'équipe un peu
 * Ca va nous permettre de voir quelle approche avoir en terme d'organisation du code
 ====
@@ -86,8 +86,8 @@ image:forge-all-hidden-tools-1.png[1, 90%]
 
 [NOTE.speaker]
 ====
-* Ca c'est globalement la vision utilisateur
-* Mais en vrai, si on veut avancer dans cette conférence sans avoir à faire à un Jackson Pollock
+* Ça c'est globalement la vision utilisateur
+* Mais en vrai, si on veut avancer dans cette conférence sans avoir affaire à un Jackson Pollock
 * On va virer les flèches
 ====
 
@@ -108,7 +108,7 @@ image:forge-all-hidden-tools-3.png[3, 90%]
 
 [NOTE.speaker]
 ====
-* Désolé pour l'utilsateur, mais ici, il ne me sert à rien
+* Désolé pour l'utilisateur, mais ici, il ne me sert à rien
 * On va faire un peu de place
 ====
 
@@ -129,17 +129,17 @@ image:forge-all-hidden-tools-5.png[5, 90%]
 
 [NOTE.speaker]
 ====
-* Voila, ce sera plus simple comme ça
+* Voilà, ce sera plus simple comme ça
 * On va pouvoir ajouter quelques outils dont on va avoir besoin
-* Bon, pour la côté as code du diagramme on reviendra par contre
+* Bon, pour le côté as code du diagramme on reviendra par contre
 * Déjà, Gitlab ne vient pas tout seul
-* On ajoute les runner
+* On ajoute les runners
 ====
 
 [.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-6.png[5, 90%]
+image:forge-all-hidden-tools-6.png[6, 90%]
 
 [NOTE.speaker]
 ====
@@ -149,7 +149,7 @@ image:forge-all-hidden-tools-6.png[5, 90%]
 [.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-7.png[5, 90%]
+image:forge-all-hidden-tools-7.png[7, 90%]
 
 [NOTE.speaker]
 ====
@@ -159,7 +159,7 @@ image:forge-all-hidden-tools-7.png[5, 90%]
 [.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-8.png[5, 90%]
+image:forge-all-hidden-tools-8.png[8, 90%]
 
 [NOTE.speaker]
 ====
@@ -169,7 +169,7 @@ image:forge-all-hidden-tools-8.png[5, 90%]
 [.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-9.png[5, 90%]
+image:forge-all-hidden-tools-9.png[9, 90%]
 
 [NOTE.speaker]
 ====
@@ -180,7 +180,7 @@ image:forge-all-hidden-tools-9.png[5, 90%]
 [.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-10.png[5, 90%]
+image:forge-all-hidden-tools-10.png[10, 90%]
 
 [NOTE.speaker]
 ====
@@ -191,7 +191,7 @@ image:forge-all-hidden-tools-10.png[5, 90%]
 [.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-11.png[5, 90%]
+image:forge-all-hidden-tools-11.png[11, 90%]
 
 [NOTE.speaker]
 ====
@@ -202,18 +202,18 @@ image:forge-all-hidden-tools-11.png[5, 90%]
 [.img-lighter, transition=none]
 == !
 
-image:forge-all-hidden-tools-12.png[5, 90%]
+image:forge-all-hidden-tools-12.png[12, 90%]
 
 [NOTE.speaker]
 ====
 * Un Zabbix
-* Et un aggrégateur de logs + monitoring supplémentaire
+* Et un agrégateur de logs + monitoring supplémentaire
 ====
 
 [.img-lighter, transition="none-in slide-out"]
 == !
 
-image:forge-all-hidden-tools-13.png[5, 90%]
+image:forge-all-hidden-tools-13.png[13, 90%]
 
 [NOTE.speaker]
 ====
@@ -228,7 +228,7 @@ image:fine.png[]
 [NOTE.speaker]
 ====
 * TOUT VA BIEN !
-* Avec du docker compose et une ISO de base, ça devrait pas être si compliqué à mettre en place.
+* Avec du docker compose et une ISO de base, ça ne devrait pas être si compliqué à mettre en place.
 * Avant de prendre des décisions sur notre organisation de code pour tout ça, il nous manque quelque chose d'important.
 ====
 
@@ -238,7 +238,7 @@ image:switch.png[]
 
 [NOTE.speaker]
 ====
-* C'est bien d'avoir des outils, mais maintenant, il faut qu'il communique, en prenant en compte les contraintes de sécu et les ouvertures de flux.
+* C'est bien d'avoir des outils, mais maintenant, il faut qu'ils communiquent, en prenant en compte les contraintes de sécu et les ouvertures de flux.
 * Commençons par organiser ce beau foutoir
 ====
 
@@ -261,7 +261,7 @@ image:forge-all-network-02.png[2, 90%]
 
 [NOTE.speaker]
 ====
-* Pour éviter les ouvertures de port "technique" (ex. ssh) sur le réseau utilisateur, double adressage, donc deux cartes réseaux par VM
+* Pour éviter les ouvertures de port "technique" (ex. ssh) sur le réseau utilisateur, double adressage, donc deux cartes réseau par VM
 * Et configuration des ports ouverts sur les machines
 ====
 
@@ -282,7 +282,7 @@ image:forge-all-network-04.png[4, 90%]
 
 [NOTE.speaker]
 ====
-* Un pare feu L3/4 7 pour proteger tout ça
+* Un pare feu L3/4 7 pour protéger tout ça
 * Central dans l'infra, tout passe par lui
 * Double configuration réseau technique et réseau utilisateur
 ====
@@ -295,7 +295,7 @@ image:forge-all-network-05.png[5, 90%]
 [NOTE.speaker]
 ====
 * Encore des pare feu pour les sorties entre les environnements
-* En réalité, on a pas autant de parefeu, mais il faudrait
+* En réalité, on n'a pas autant de pare-feu, mais il faudrait
 ====
 
 [.img-lighter, transition="none-in slide-out"]
@@ -324,8 +324,8 @@ Il faut faire le même boulot pour les autres zones
 
 [NOTE.speaker]
 ====
-* Déjà, on voit que ça ne va être une mince affaire
-* On va rien faire à la main
+* Déjà, on voit que ça ne va pas être une mince affaire
+* On ne va rien faire à la main
 * Terraform ok, mais bash, ça risque d'être compliqué
 * Une approche un dépôt de code par outil =>
 ** Pourquoi pas, mais quid des dépendances

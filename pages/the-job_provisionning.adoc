@@ -29,7 +29,7 @@ image:forge-all-hidden-tools-13.png[1, 90%]
 * Installation des docker compose
 ** Avec les bons volumes
 * Installation de l'AC certificat
-* Correlation flux et port ouvert
+* Corrélation flux et port ouvert
 * Déploiement des configurations environnementales
 * Lancement des scripts d'init
 ====

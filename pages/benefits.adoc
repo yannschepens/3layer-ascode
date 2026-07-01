@@ -11,19 +11,19 @@ image:yes.png[]
 ====
 Oui plutôt bien
 
-* On applique, execute le code que sur les élements nécessaire
-* L'exécution des scripts sont plutôt rapides
+* On applique, exécute le code que sur les éléments nécessaires
+* L'exécution des scripts est plutôt rapide
 * Chaque évolution se fait dans un cadre cohérent
 ** On ne se retrouve pas avec du code de gestion de VLAN quand on fait une montée de version de Gitlab.
 ** On n'a même pas besoin de calculer les diff (ex. tfstate)
-* Choix de la technos libres pour chaque couche
+* Choix des technos libres pour chaque couche
 ====
 
 == Des inconvénients ?
 
 [NOTE.speaker]
 ====
-Y'a t'il des inconvénients ?
+Y a-t-il des inconvénients ?
 ====
 
 == !
@@ -32,7 +32,7 @@ image:yes.png[]
 
 [NOTE.speaker]
 ====
-Bien sur
+Bien sûr
 ====
 
 == Les impacts des modifications
@@ -41,7 +41,7 @@ image:updates-5.png[1, 60%]
 
 [NOTE.speaker]
 ====
-Qu'est ce qu'il se passe quand on a une modification ?
+Qu'est-ce qu'il se passe quand on a une modification ?
 ====
 
 [.img-lighter]
@@ -76,6 +76,6 @@ image:separation.png[]
 
 [NOTE.speaker]
 ====
-* Les affinités professionelles font qu'on va surtout travailler sur une couche ou deux
+* Les affinités professionnelles font qu'on va surtout travailler sur une couche ou deux
 * On perd du savoir sur le reste
 ====

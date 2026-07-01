@@ -9,7 +9,7 @@ image:frequency.png[]
 [NOTE.speaker]
 ====
 * Pensez à la fréquence de mise à jour quand vous imaginez votre archi "everything as code"
-* Ca simplifie la maintenance
+* Ça simplifie la maintenance
 * Même si ça sort un peu des habitudes
 * Vision maintenance
 

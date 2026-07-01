@@ -18,7 +18,7 @@ image:datasource-all-2.png[1, 75%]
 
 [NOTE.speaker]
 ====
-Réparti dans 81 groupes/sous groupes
+Répartis dans 81 groupes/sous-groupes
 ====
 
 [transition="fade-in slide-out"]
@@ -29,7 +29,7 @@ image:datasource-all-3.png[1, 75%]
 [NOTE.speaker]
 ====
 
-* 174 utilisateurs "humain"
+* 174 utilisateurs "humains"
 
 On va pas gérer ça à la main non plus
 Donc as code
@@ -64,7 +64,7 @@ image:datasources-comeandback-users.png[1, 90%]
 
 Et des utilisateurs, développeurs pour la plupart
 
-* Avec des droits et des roles
+* Avec des droits et des rôles
 * Associés à des projets
 * Qui viennent et qui partent
 * IDP

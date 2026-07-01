@@ -7,14 +7,14 @@ image::forge.png[forge,75%]
 
 [NOTE.speaker]
 ====
-Trop bien mais qu'est ce que c'est :
+Trop bien mais qu'est-ce que c'est :
 
-* Un ensemble d'outil pour simplifier la vie des développeurs
+* Un ensemble d'outils pour simplifier la vie des développeurs
 * Assurer la qualité, la non-reg, la sécu,
 * Construire, builder, livrer, déployer
-* Embéter (pour être poli) les équipes de réal
+* Embêter (pour être poli) les équipes de réal
 
-C'est jolie comme image, mais pour de l'IT, en vrai c'est :
+C'est joli comme image, mais pour de l'IT, en vrai c'est :
 ====
 
 == !
@@ -25,8 +25,8 @@ image::mendeleiev.png[mendeleiev]
 ====
 * C'est pas mal
 * On a du choix
-* Plein de jouet
-* Pour info, c'est le tableau periodique devops
+* Plein de jouets
+* Pour info, c'est le tableau périodique devops
 
 Mais en vrai de vrai ?
 ====
@@ -52,7 +52,7 @@ Les outils de base
 
 Et notre forge alors, on fait quoi ?
 
-Comme tout bon faineant
+Comme tout bon fainéant
 ====
 
 == !
@@ -92,8 +92,8 @@ image::forge-simple-with-k8s.png[]
 [NOTE.speaker]
 ====
 
-Pas grave, on mettre un k8s
-En plus, notre hebergeur le propose
+Pas grave, on met un k8s
+En plus, notre hébergeur le propose
 
 ====
 
@@ -136,8 +136,8 @@ image::forge-simple-no-internet.png[]
 
 [NOTE.speaker]
 ====
-* Pas de sortie direct, et pas de proxy XD
-* Pas d'entrée direct
+* Pas de sortie directe, et pas de proxy XD
+* Pas d'entrée directe
 ** Sécurité
 ====
 
@@ -149,9 +149,9 @@ image::forge-simple-relai.png[]
 [NOTE.speaker]
 ====
 * Whitelist IP avec firewall
-* Relai par zone dédiée et passage par des proxy de dépots artifactory
+* Relai par zone dédiée et passage par des proxy de dépôts artifactory
 * Autant l'entrée vers la plateforme, ok, mais si avec des prestas c'est compliqué (on a whitelisté les VPN des prestas)
-* Imaginez, pour les apt, docker pull, etc. pas d'accès aux direct aux dépôts ... FUN !
+* Imaginez, pour les apt, docker pull, etc. pas d'accès direct aux dépôts ... FUN !
 * Pour récapituler
 ====
 
@@ -161,9 +161,9 @@ image::nope.png[nope,75%]
 
 [NOTE.speaker]
 ====
-* La plateforme, c'est NOPE, on a pas beaucoup de liberté
-* Je ne vous parle pas des certificats proprietaires
-** Et oui, vue qu'on proxifie les dépôts distants officielle debian etc... bahhhh, je vous passe les détails
+* La plateforme, c'est NOPE, on n'a pas beaucoup de liberté
+* Je ne vous parle pas des certificats propriétaires
+** Et oui, vu qu'on proxifie les dépôts distants officiels debian etc... bahhhh, je vous passe les détails
 ** Et tout est authentifié
 
 * Allez, on prend en compte toutes ces contraintes

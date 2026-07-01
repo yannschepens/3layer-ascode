@@ -19,7 +19,7 @@ image::tooling.png[]
 ** terraform + docker compose + bash
 ** Dans un dépôt, ou un par outil, c'est un peu gros mais au moins c'est cohérent
 * Pour l'infra, c'est parfait
-* On a 5/6 outils à déployer sur des VM, avec docker ça va aller vite, pas trop de besoin de provisionning, donc pas forcement de ansible et autre
+* On a 5/6 outils à déployer sur des VM, avec docker ça va aller vite, pas trop de besoin de provisionning, donc pas forcément de ansible et autre
 * Pour la conf, soit des ressources terraform, soit du fichier de conf soit du bash
 
 * Puis, on continue à creuser et on voit ...

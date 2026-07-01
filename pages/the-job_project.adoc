@@ -29,7 +29,7 @@ image:tools-tasks-gitlab.png[1, 90%]
 ** Configuration spécifique projet
 * => Expliquer le schéma
 * Déjà, on voit qu'on ne va pas pouvoir les faire au même moment
-* Et donc pas forcement avec les mêmes outils
+* Et donc pas forcément avec les mêmes outils
 ====
 
 [.img-lighter]

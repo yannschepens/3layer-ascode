@@ -170,7 +170,7 @@ vault
 
 [NOTE.speaker]
 ====
-* Approche top, décorrelation "fonctionnel" et "technique"
+* Approche top, décorrélation "fonctionnel" et "technique"
 * Normalisation et contrôle des couches basses
 * Seulement sur catalog
 ====
@@ -188,7 +188,7 @@ vault
 * Lire les slides
 * On est trop petit
 * Trop de maintenance du catalog
-* Pas nécessaire, on accueille pas d'autres équipes
+* Pas nécessaire, on n'accueille pas d'autres équipes
 ====
 
 == Chez nous, tout touche à tout
@@ -196,13 +196,13 @@ vault
 [NOTE.speaker]
 ====
 * Ex.: Si l'auth gitlab change
-** Regeneration des services accounts
+** Régénération des services accounts
 ** Modification artif
 ** Modification de sonar
 
-* Ex.: Déploiment d'un nouvel outil
+* Ex.: Déploiement d'un nouvel outil
 ** Ouverture de flux => Infra
-** Branchement avec les outils qui s'en serve => Provisionning
+** Branchement avec les outils qui s'en servent => Provisionning
 ** Configuration des accès pour les projets => Projet
 
 Transition : Du coup, la solution ne serait pas ?
@@ -228,7 +228,7 @@ image:nope.png[1, 80%]
 ** Branching Git horrible
 
 * Montée de version d'un outil ?
-** Idem, on risque en plus de peter un truc
+** Idem, on risque en plus de péter un truc
 
 * Fréquence d'exécution du script
 ** Trop fréquent pour un truc qui attaque toute l'infra
@@ -241,6 +241,6 @@ image:nope.png[1, 80%]
 [NOTE.speaker]
 ====
 * Là, on a une approche plutôt statique des choses.
-* On sépare en couche, on tri par infra, provisionning, configuration
+* On sépare en couche, on trie par infra, provisionning, configuration
 * Il y a peut-être moyen de faire autrement
 ====

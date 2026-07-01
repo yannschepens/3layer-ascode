@@ -3,7 +3,7 @@
 
 [NOTE.speaker]
 ====
-On s'est la question d'une manière différente
+On s'est posé la question d'une manière différente
 
 * Qu'est-ce qui nous amène à toucher le code ?
 * A quelle fréquence ?
@@ -53,11 +53,11 @@ image:updates-5.png[1, 80%]
 [NOTE.speaker]
 ====
 * Ajout d'un utilisateur
-* fréquent, multi cible et par les chef de projets
+* fréquent, multi cible et par les chefs de projets
 
 * Au-delà de l'impact, c'est surtout la fréquence qui change
 * On voit aussi que ce ne sont pas vraiment les mêmes acteurs
-* Donc, si on se penche sur le fréquence
+* Donc, si on se penche sur la fréquence
 * De toute façon, il est hors de question qu'un CP touche aux dépôts
 * Donc on a plusieurs types de fréquence
 ====
@@ -69,12 +69,12 @@ image:frequency.png[]
 
 [NOTE.speaker]
 ====
-* Modif d'infra : plutôt rare et maitrisé
-** Souvent de notre volonté, donc maitrisé
-* Modif logiciel (provisionning) : Instable mais maitrisé à court terme
+* Modif d'infra : plutôt rare et maîtrisé
+** Souvent de notre volonté, donc maîtrisé
+* Modif logiciel (provisionning) : Instable mais maîtrisé à court terme
 ** Aux nouvelles versions des outils
 ** A l'ajout et modification des outils
-* Gestion des utilisateurs et projet : Instable et non maitrisé
+* Gestion des utilisateurs et projet : Instable et non maîtrisé
 ** Doit être fait le plus rapidement possible
 ** Sans impact sur le reste de la plateforme
 ====
@@ -82,8 +82,8 @@ image:frequency.png[]
 == 3 temporalités
 
 [%step]
-* Très fréquent
-* De temps en temps
+* Fréquent
+* Variable
 * Rare
 
 == Donc découpe en 3 couches
